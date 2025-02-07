@@ -4,666 +4,295 @@ mode: Global
 log-level: info
 external-controller: ':9090'
 proxies:
-  - name: 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 15
-    server: gdgs.tarioblink.me
-    type: ss
-    country: 🇨🇳CN
-    port: 30002
-    password: b577cffa-34c6-4ebd-9546-f957e126e24a
-    cipher: chacha20-ietf-poly1305
-    delay: 1479
-  - name: 中国 - 台湾 - HostingInside LTD. - 1
-    server: taiwan-2.keenvpn.me
-    type: ss
-    country: 🇹🇼TW
+  - name: 中国 - 台湾 - Cloudflare, Inc. - 11
+    server: 35.234.3.153
+    type: vless
     port: 443
-    password: 2afbc97400ca71c8f3306f9843a6e1c2
-    cipher: chacha20-ietf-poly1305
-    delay: 769
-  - name: 中国 - 香港 - 2012 Limited / netfront.net - 14
-    server: 120.232.81.50
-    port: 16088
-    type: ss
-    cipher: aes-256-cfb
-    password: hGkQ6915tD
-    delay: 1047
-  - name: 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 19
-    server: hk9.ftq.ink
-    port: 4000
-    type: http
-    tls: true
-    delay: 2374
-  - name: 中国 - 香港 - Cloudflare, Inc. - 10
-    server: 47.76.195.73
-    type: vless
-    port: 587
     udp: true
     uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 360
-  - name: 中国 - 香港 - Cloudflare, Inc. - 11
-    server: 47.76.215.14
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 487
+  - name: 中国 - 台湾 - Cloudflare, Inc. - 3
+    server: 141.11.86.109
     type: vless
-    port: 587
+    port: 8080
     udp: true
     uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 360
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 1005
+  - name: 中国 - 台湾 - Cloudflare, Inc. - 5
+    server: 188.253.6.210
+    type: vless
+    port: 443
+    udp: true
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: ngedc.ambercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 2885
+  - name: 中国 - 香港 - Cloudflare, Inc. - 1
+    server: 58.176.10.111
+    type: vless
+    port: 58443
+    udp: true
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: ngedc.ambercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 1628
   - name: 中国 - 香港 - Cloudflare, Inc. - 12
-    server: 47.242.145.136
+    server: 43.198.207.3
     type: vless
-    port: 8001
+    port: 2087
     udp: true
     uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 367
-  - name: 中国 - 香港 - Cloudflare, Inc. - 13
-    server: 101.32.15.176
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 614
+  - name: 中国 - 香港 - Cloudflare, Inc. - 2
+    server: 61.239.234.5
     type: vless
-    port: 16831
+    port: 35500
     udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: re.vs2024.us.kg
     ws-opts:
-      path: /?ed=2560
+      path: /?ed=2560&proxyip=61.239.234.5:35500
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1448
-  - name: 中国 - 香港 - Cloudflare, Inc. - 16
-    server: 104.16.46.27
-    type: vless
-    port: 80
-    udp: true
-    uuid: 98f9fb8e-ac0c-4a54-80ff-dcce095d9fbd
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: cold-snowflake-4912-ppal03.rarenok889.workers.dev
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: cold-snowflake-4912-ppal03.rarenok889.workers.dev
-    delay: 1448
-  - name: 中国 - 香港 - Cloudflare, Inc. - 17
-    server: 47.238.40.174
-    type: vless
-    port: 587
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1096
-  - name: 中国 - 香港 - Cloudflare, Inc. - 18
-    server: 43.135.44.101
-    type: vless
-    port: 30002
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 596
+        Host: re.vs2024.us.kg
+    delay: 1041
   - name: 中国 - 香港 - Cloudflare, Inc. - 4
+    server: 59.149.77.122
+    type: vless
+    port: 36822
+    udp: true
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: ngedc.ambercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 1241
+  - name: 中国 - 香港 - Cloudflare, Inc. - 6
     server: >-
       join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
     type: vless
     port: 443
     udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
-    ws-opts:
-      path: /?ed=2560&proxyip=proxyip.us.fxxk.dedyn.io
-      headers:
-        Host: vz.bgm2024.us.kg
-    delay: 1051
-  - name: 中国 - 香港 - Cloudflare, Inc. - 5
-    server: 207.226.152.42
-    type: vless
-    port: 443
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: re.vs2024.us.kg
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1563
-  - name: 中国 - 香港 - Cloudflare, Inc. - 6
-    server: 202.181.27.218
-    type: vless
-    port: 14526
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 930
+        Host: re.vs2024.us.kg
+    delay: 2247
   - name: 中国 - 香港 - Cloudflare, Inc. - 7
-    server: 58.176.229.127
+    server: 43.198.104.113
     type: vless
-    port: 35002
+    port: 2087
     udp: true
     uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 437
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 702
   - name: 中国 - 香港 - Cloudflare, Inc. - 8
-    server: 61.239.234.5
+    server: 45.87.103.154
     type: vless
-    port: 35500
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: vz.bgm2024.us.kg
-    delay: 685
-  - name: 中国 - 香港 - Cloudflare, Inc. - 9
-    server: 47.239.195.179
-    type: vless
-    port: 587
+    port: 52001
     udp: true
     uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 484
-  - name: 中国 - 香港 - Leaseweb Hong Kong Limited - 2
-    server: 203.23.128.167
-    type: hysteria2
-    country: 🇭🇰HK
-    port: 80
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 2903
+  - name: 中国 - 香港 - Cloudflare, Inc. - 9
+    server: 156.255.90.175
+    type: vless
+    port: 8443
     udp: true
-    password: a0605527-28e4-449c-80ee-5642cc16a8af
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    network: ws
+    tls: true
     skip-cert-verify: true
-    delay: 1511
-  - name: 中国 - 香港 - WAP.AC LTD - 3
-    server: 62.72.163.215
-    type: hysteria2
-    country: 🇭🇰HK
-    port: 80
+    servername: ngedc.ambercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 884
+  - name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 10
+    server: zfa01.333210.xyz
+    type: trojan
+    country: 🇷🇺RU
+    port: 40383
+    password: 3aec9607-0136-4ca1-90c2-553a0322b25e
+    sni: cdn.alibaba.com
+    skip-cert-verify: true
     udp: true
-    password: a0605527-28e4-449c-80ee-5642cc16a8af
-    skip-cert-verify: true
-    delay: 1561
+    delay: 1147
+  - name: 丹麦 - 哥本哈根 - ONEPROVIDER - 1
+    server: 185.186.79.53
+    port: 989
+    type: ssr
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+    protocol: origin
+    obfs: plain
+    protocol-param: ''
+    obfs-param: ''
+    delay: 2835
   - name: 乌克兰 - Kyiv - Ivanov Vitaliy Sergeevich - 1
     server: 176.103.53.105
-    type: ss
-    country: 🇺🇦UA
     port: 989
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-    delay: 2292
-  - name: 以色列 - 特拉维夫 - O.M.C. COMPUTERS & COMMUNICATIONS LTD - 1
-    server: 188.191.147.127
     type: ss
-    country: 🇺🇦 UA
-    port: 31348
-    password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6
-    cipher: chacha20-ietf-poly1305
-    delay: 1568
-  - name: 加拿大 - 多伦多 - The Constant Company - 1
-    server: 149.248.54.233
-    port: 443
-    type: trojan
-    password: xjtZ2S5FgQ
-    skip-cert-verify: true
-    delay: 1148
-  - name: 厄瓜多尔 - 基多 - ONEPROVIDER - 1
-    server: 185.47.253.171
-    type: ss
-    country: 🇺🇸US
-    port: 989
-    password: f8f7aCzcPKbsF8p3
     cipher: aes-256-cfb
-    delay: 2261
-  - name: 奥地利 - 維也納 - Stark Industries Solutions LTD - 1
-    server: www.speedtest.net
-    type: vless
-    port: 2052
-    udp: true
-    uuid: a963b6b1-2289-5d24-808c-11b5e654e421
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: www-domain.at2.vless.sitespeedtest.net
-    ws-opts:
-      path: /vless
-      headers:
-        Host: www-domain.at2.vless.sitespeedtest.net
-    delay: 2462
-  - name: 巴西 - São Paulo - Oracle Corporation - 1
-    server: br.huafei888.site
-    type: hysteria2
-    country: 🇧🇷BR
-    port: 80
-    udp: true
-    password: a0605527-28e4-449c-80ee-5642cc16a8af
-    skip-cert-verify: true
-    delay: 2117
-  - name: 德国 - Frankfurt am Main - Amazon.com - 1
-    server: 63.177.166.25
-    type: trojan
-    country: 🇺🇸US
-    port: 22222
-    password: telegram-id-directvpn
-    sni: trojan.burgerip.co.uk
-    skip-cert-verify: true
-    udp: true
-    delay: 1091
-  - name: 德国 - 法兰克福 - DigitalOcean, LLC - 3
-    server: gr.samsung-pakhsh.ir
-    port: 6067
-    type: vless
-    uuid: 2e2f5cd2-cf20-4204-868b-fe8ea95e531a
-    tls: false
-    client-fingerprint: chrome
-    network: grpc
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: 2055vless
+    password: f8f7aCzcPKbsF8p3
     delay: 1981
-  - name: 德国 - 纽伦堡 - Hetzner Online GmbH - 2
-    server: 104.17.221.248
-    type: vless
-    port: 80
-    udp: true
-    uuid: a35017af-d228-44bd-885c-e5951ce09df6
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: dl6.heykakenakhshanemvaberanakhshanemkhadijeomanigakobraoaminfatema.com
-    ws-opts:
-      path: Mmdv2rayng-V2rayngmmd-telegram-mmd_v2rayng?ed=80
-      headers:
-        Host: >-
-          dl6.heykakenakhshanemvaberanakhshanemkhadijeomanigakobraoaminfatema.com
-    delay: 2518
-  - name: 新加坡 - 新加坡 - Amazon Technologies Inc - 6
-    server: 47.128.217.182
-    type: ss
-    country: 🇸🇬SG
-    port: 443
-    password: amazonskr05
-    cipher: aes-256-cfb
-    delay: 2582
-  - name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 5
-    server: 13.212.249.95
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    delay: 379
-  - name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 7
-    server: 54.254.191.196
-    type: ss
-    country: 🇸🇬SG
-    port: 443
-    password: amazonskr05
-    cipher: aes-256-cfb
-    delay: 406
-  - name: 新加坡 - 新加坡 - Amazon.com, Inc. - 2
-    server: 13.250.47.75
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    delay: 1251
-  - name: 新加坡 - 新加坡 - Amazon.com, Inc. - 4
-    server: 18.141.177.51
-    type: ss
-    country: 🇸🇬SG
-    port: 443
-    password: amazonskr05
-    cipher: aes-256-cfb
-    delay: 1157
-  - name: 新加坡 - 新加坡 - Cloudflare, Inc. - 10
-    server: 43.156.253.94
-    type: vless
-    port: 443
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 406
-  - name: 新加坡 - 新加坡 - Cloudflare, Inc. - 11
-    server: 8.219.205.6
-    type: vless
-    port: 443
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 2491
-  - name: 新加坡 - 新加坡 - Cloudflare, Inc. - 12
-    server: 8.219.160.244
-    type: vless
-    port: 443
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 982
-  - name: 新加坡 - 新加坡 - Cloudflare, Inc. - 13
-    server: 8.219.207.102
-    type: vless
-    port: 443
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1156
-  - name: 新加坡 - 新加坡 - Cloudflare, Inc. - 14
-    server: 152.70.109.220
-    type: vless
-    port: 443
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1113
-  - name: 新加坡 - 新加坡 - Cloudflare, Inc. - 15
-    server: 43.134.34.18
-    type: vless
-    port: 443
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 419
-  - name: 新加坡 - 新加坡 - Cloudflare, Inc. - 16
-    server: 47.236.141.91
-    type: vless
-    port: 587
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1127
-  - name: 新加坡 - 新加坡 - Cloudflare, Inc. - 8
-    server: 52.74.101.26
-    type: vless
-    port: 443
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 441
-  - name: 新加坡 - 新加坡 - Cloudflare, Inc. - 9
-    server: 8.219.203.104
-    type: vless
-    port: 443
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 939
-  - name: 新加坡 - 新加坡 - DigitalOcean, LLC - 3
-    server: 68.183.227.45
-    port: 8080
-    type: ss
-    cipher: rc4-md5
-    password: 14fFPrbezE3HDZzsMOr6
-    delay: 2284
-  - name: 新加坡 - 新加坡 - Greywolf Networks Pte. Ltd. - 1
-    server: 103.36.90.195
-    type: ss
-    port: 8388
-    password: asd123456
-    cipher: chacha20-ietf
-    delay: 1212
-  - name: 日本 - Ōkubo-naka - Cloudflare, Inc. - 6
-    server: 141.147.144.246
-    type: vless
-    port: 8080
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 933
-  - name: 日本 - Ōkubo-naka - Cloudflare, Inc. - 8
-    server: 141.147.154.214
-    type: vless
-    port: 443
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 918
-  - name: 日本 - 东京 - Amazon Technologies Inc. - 1
-    server: 52.68.124.236
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    delay: 2674
-  - name: 日本 - 东京 - Amazon Technologies Inc. - 3
-    server: 3.112.149.177
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    delay: 1521
-  - name: 日本 - 东京 - Amazon Technologies Inc. - 4
-    server: 18.183.142.200
-    type: ss
-    country: 🇯🇵JP
-    port: 443
-    password: amazonskr05
-    cipher: aes-256-cfb
-    delay: 851
-  - name: 日本 - 东京 - Amazon.com, Inc. - 2
-    server: 57.180.41.158
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    delay: 510
-  - name: 日本 - 东京 - Eons Data Communications Limited - 10
-    server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-    port: 60717
+  - name: 俄罗斯 - 圣彼得堡 - LLC Baxet - 1
+    server: 195.58.49.42
     type: vmess
-    uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
+    port: 20311
+    udp: true
+    uuid: 0a0d99e5-6ff4-49dd-bf49-693f61f3a4bb
     alterId: 0
     cipher: auto
-    tls: false
-    delay: 843
-  - name: 日本 - 东京 - Global Connectivity Solutions LLP - 9
-    server: gdgs.tarioblink.me
+    network: ws
+    http-opts: {}
+    h2-opts: {}
+    ws-opts:
+      path: /
+    delay: 1644
+  - name: 俄罗斯 - 圣彼得堡 - LLC Baxet - 2
+    server: 195.58.49.42
+    type: vmess
+    port: 20311
+    udp: true
+    uuid: 9522bb36-eb01-42e7-89f2-75edf52eae10
+    alterId: 0
+    cipher: auto
+    network: ws
+    http-opts: {}
+    h2-opts: {}
+    ws-opts:
+      path: /
+    delay: 2421
+  - name: 俄罗斯 - 圣彼得堡 - LLC Baxet - 3
+    server: 195.58.49.42
+    type: vmess
+    country: 🇨🇿CZ
+    port: 20311
+    uuid: 85b40488-b6f5-4431-9247-1bacd106e944
+    alterId: 0
+    cipher: auto
+    network: ws
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+    delay: 2754
+  - name: 俄罗斯 - 圣彼得堡 - LLC Baxet - 4
+    server: 195.58.49.42
+    type: vmess
+    port: 20311
+    udp: true
+    uuid: 2c6dcb36-c268-4e63-aa46-bfae30a78614
+    alterId: 0
+    cipher: auto
+    network: ws
+    http-opts: {}
+    h2-opts: {}
+    ws-opts:
+      path: /
+    delay: 2385
+  - name: 俄罗斯 - 圣彼得堡 - LLC Baxet - 5
+    server: 195.58.49.42
+    type: vmess
+    port: 20311
+    udp: true
+    uuid: a2dd2ce9-28de-4af0-b0bb-86add2badff0
+    alterId: 0
+    cipher: auto
+    network: ws
+    http-opts: {}
+    h2-opts: {}
+    ws-opts:
+      path: /
+    delay: 2807
+  - name: 俄罗斯 - 圣彼得堡 - LLC Baxet - 6
+    server: 195.58.49.42
+    type: vmess
+    port: 20311
+    udp: true
+    uuid: e0cefb8c-f4f3-4705-9c89-60da94c89bb9
+    alterId: 0
+    cipher: auto
+    network: ws
+    http-opts: {}
+    h2-opts: {}
+    ws-opts:
+      path: /
+    delay: 1469
+  - name: 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 1
+    server: 37.235.49.152
     type: ss
-    country: 🇨🇳CN
-    port: 30003
-    password: e3a183f4-1f0f-42ea-842a-f22195f67d09
-    cipher: chacha20-ietf-poly1305
-    delay: 479
-  - name: 日本 - 成田市 - Cloudflare, Inc. - 5
-    server: 38.180.29.115
-    type: vless
-    port: 443
+    port: 989
     udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1301
-  - name: 日本 - 成田市 - Cloudflare, Inc. - 7
-    server: 138.3.216.18
-    type: vless
-    port: 587
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 2423
-  - name: 比利时 - 布鲁塞尔 - Stark Industries Solutions LTD - 1
-    server: south.sf0jm.xyz
-    port: 49222
-    type: ss
-    cipher: aes-128-gcm
-    password: 46e6eeca-65a9-4f54-a7f2-ae1bf5f6a0ab
-    delay: 716
-  - name: 法国 - 奥贝维埃 - The Constant Company - 1
-    server: 140.82.54.85
-    type: trojan
-    country: 🇫🇷FR
-    port: 443
-    password: xjtZ2S5FgQ
-    skip-cert-verify: true
-    udp: true
-    delay: 2050
-  - name: 法国 - 奧奈叢林 - Cloudflare, Inc. - 3
-    server: 91.107.253.14
-    port: 8443
-    type: trojan
-    password: Aimer
-    sni: ngepy.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: ''
-      headers:
-        Host: ngepy.ambercc.filegear-sg.me
-    delay: 1800
-  - name: 法国 - 巴黎 - Amazon Technologies Inc. - 5
-    server: 35.180.2.126
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+    delay: 1059
+  - name: 加拿大 - 多伦多 - Amazon.com, Inc. - 1
+    server: 15.157.75.221
     port: 22222
     type: vless
     uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
@@ -673,194 +302,204 @@ proxies:
     network: ws
     ws-opts:
       path: /telegram-channel-vlessconfig-ws
-    delay: 1388
-  - name: 法国 - 巴黎 - M247 Europe SRL - 4
-    server: 14.18.253.178
-    port: 8347
+    delay: 1371
+  - name: 哈萨克斯坦 - 阿拉木圖 - G-Core Labs S.A. - 1
+    server: 213.156.137.67
+    port: 989
     type: ss
-    cipher: chacha20
-    password: q2kSGp4ayFKB
-    delay: 1965
-  - name: 法国 - 巴黎 - Stark Industries Solutions LTD - 2
-    server: 185.234.64.35
-    port: 8388
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+    delay: 2049
+  - name: 哥伦比亚 - 波哥大 - IFX Networks Argentina S.R.L - 1
+    server: 181.119.30.20
+    port: 989
+    type: ss
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+    delay: 1240
+  - name: 奥地利 - 維也納 - Baxet Group Inc. - 1
+    server: 185.121.134.12
+    type: vmess
+    country: 🇬🇧GB
+    port: 20311
+    uuid: 5055b8d9-fc5f-440f-b343-773979a8fe9f
+    alterId: 0
+    cipher: auto
+    network: ws
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+    delay: 2427
+  - name: 德国 - Frankfurt Am Main - Hetzner Online AG - 2
+    server: 91.107.166.68
+    port: 2083
+    type: vmess
+    uuid: 5016d935-aacb-4ac3-987c-a306afeed4c4
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+    delay: 1246
+  - name: 德国 - 法兰克福 - Regxa Company for Information Technology Ltd - 1
+    server: 146.103.40.29
+    port: 4017
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: YTNjNDY5
-    delay: 930
-  - name: 波兰 - 华沙 - Melbikomas UAB - 1
-    server: 217.30.10.18
-    type: ss
-    country: 🇵🇱 PL
-    port: 9026
-    password: QWDDvVE9npNurQfA
-    cipher: aes-256-cfb
-    delay: 1171
-  - name: 波兰 - 华沙 - Melbikomas UAB - 10
-    server: 217.30.10.18
-    type: ss
-    country: 🏁 ZZ
-    port: 9020
-    password: BNmAXXxAHYpTRdzu
-    cipher: aes-256-cfb
-    delay: 2394
-  - name: 波兰 - 华沙 - Melbikomas UAB - 11
-    server: 217.30.10.18
-    type: ss
-    country: 🏁 ZZ
-    port: 9079
-    password: TPqX8edgbAURcAMb
-    cipher: aes-256-cfb
-    delay: 2409
-  - name: 波兰 - 华沙 - Melbikomas UAB - 12
-    server: 217.30.10.18
-    type: ss
-    port: 9001
-    password: UkXRsXvR6buDMG2Y
-    cipher: aes-256-cfb
-    delay: 2050
-  - name: 波兰 - 华沙 - Melbikomas UAB - 13
-    server: 217.30.10.18
-    type: ss
-    country: 🏁 ZZ
-    port: 9064
-    password: cp8pRSUAyLhTfVWH
-    cipher: aes-256-cfb
-    delay: 1953
-  - name: 波兰 - 华沙 - Melbikomas UAB - 14
-    server: 217.30.10.18
-    type: ss
-    country: 🇵🇱 PL
-    port: 9003
-    password: JdmRK9gMEqFgs8nP
-    cipher: aes-256-cfb
-    delay: 1967
-  - name: 波兰 - 华沙 - Melbikomas UAB - 15
-    server: 217.30.10.18
-    type: ss
-    country: 🇵🇱 PL
-    port: 9093
-    password: wfLC2y7rzZyCmuyt
-    cipher: aes-256-cfb
-    delay: 1985
-  - name: 波兰 - 华沙 - Melbikomas UAB - 16
-    server: 217.30.10.18
-    type: ss
-    port: 9040
-    password: p9z5BVADH2YFs3MN
-    cipher: aes-256-cfb
-    delay: 1868
-  - name: 波兰 - 华沙 - Melbikomas UAB - 17
-    server: 217.30.10.18
-    type: ss
-    country: 🇵🇱 PL
-    port: 9005
-    password: ZET59LF6DvCC8KVt
-    cipher: aes-256-cfb
-    delay: 1668
-  - name: 波兰 - 华沙 - Melbikomas UAB - 18
-    server: 217.30.10.18
-    type: ss
-    port: 9042
-    password: S7KwUu7yBy58S3Ga
-    cipher: aes-256-cfb
-    delay: 1702
-  - name: 波兰 - 华沙 - Melbikomas UAB - 2
-    server: 217.30.10.18
-    type: ss
-    country: 🏁 ZZ
-    port: 9011
-    password: M3t2ZEQcMGRWBjRa
-    cipher: aes-256-cfb
-    delay: 1572
-  - name: 波兰 - 华沙 - Melbikomas UAB - 3
-    server: 217.30.10.18
-    type: ss
-    country: 🇵🇱 PL
-    port: 9041
-    password: U6qnYRhfyDmn8sgn
-    cipher: aes-256-cfb
-    delay: 1802
-  - name: 波兰 - 华沙 - Melbikomas UAB - 4
-    server: 217.30.10.18
-    type: ss
-    country: 🏁 ZZ
-    port: 9010
-    password: f63gg8EruDnUrmz4
-    cipher: aes-256-cfb
-    delay: 1509
-  - name: 波兰 - 华沙 - Melbikomas UAB - 5
-    server: 217.30.10.18
-    type: ss
-    port: 9027
-    password: EXN3S3eQpjE7EJu8
-    cipher: aes-256-cfb
-    delay: 1318
-  - name: 波兰 - 华沙 - Melbikomas UAB - 6
-    server: 217.30.10.18
-    type: ss
-    country: 🇵🇱PL
-    port: 9094
-    password: rpgbNnU9rDDU4aWZ
-    cipher: aes-256-cfb
-    delay: 1636
-  - name: 波兰 - 华沙 - Melbikomas UAB - 7
-    server: 217.30.10.18
-    type: ss
-    country: 🏁 ZZ
-    port: 9018
-    password: fG2artUmHfNT2cX7
-    cipher: aes-256-cfb
-    delay: 1279
-  - name: 波兰 - 华沙 - Melbikomas UAB - 8
-    server: 217.30.10.18
-    type: ss
-    country: 🇵🇱 PL
-    port: 9059
-    password: 9XwYyZsK8SNzQDtY
-    cipher: aes-256-cfb
-    delay: 1682
-  - name: 波兰 - 华沙 - Melbikomas UAB - 9
-    server: 217.30.10.18
-    type: ss
-    country: 🇵🇱 PL
-    port: 9045
-    password: Lp27rqyJq72bZsqX
-    cipher: aes-256-cfb
-    delay: 1303
-  - name: 爱尔兰 - 都柏林 - Amazon.com, Inc. - 1
-    server: 54.246.106.47
-    port: 22222
-    type: trojan
-    password: telegram-id-privatevpns
-    sni: trojan.burgerip.co.uk
-    skip-cert-verify: true
-    delay: 1176
-  - name: 瑞典 - Steninge - Cloudflare, Inc. - 1
-    server: 129.151.198.3
+    password: U4nFT9mjZMq5RcpTzrOukA
+    delay: 865
+  - name: 德国 - 法兰克福 - Regxa Company for Information Technology Ltd - 4
+    server: a-config.96hezar.ir
+    port: 2052
     type: vless
-    port: 2053
+    uuid: 7cbe2b9e-8d3d-48f0-ac72-65caff7d4814
+    tls: false
+    client-fingerprint: chrome
+    network: grpc
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: 8880vless
+    delay: 985
+  - name: 德国 - 法兰克福 - The Constant Company, LLC - 3
+    server: 95.179.169.26
+    port: 2052
+    type: vless
+    uuid: 60f8e2fe-0f20-45de-9bad-02564156ebe2
+    tls: false
+    client-fingerprint: chrome
+    network: grpc
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: 8880vless
+    delay: 977
+  - name: 新加坡 - 新加坡 - Amazon Technologies Inc - 11
+    server: 47.129.207.193
+    type: ss
+    country: 🇺🇸US
+    port: 443
+    password: amazonskr05
+    cipher: aes-256-cfb
+    delay: 420
+  - name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 1
+    server: dynamic-shrew.shiner427.skin
+    port: 443
+    type: trojan
+    password: 65086520307764900
+    delay: 2109
+  - name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 10
+    server: 13.212.113.186
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    delay: 545
+  - name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 12
+    server: singapore-6.keenvpn.me
+    type: ss
+    port: 443
+    password: 2afbc97400ca71c8f3306f9843a6e1c2
+    cipher: chacha20-ietf-poly1305
+    delay: 530
+  - name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 13
+    server: 13.229.229.102
+    type: ss
+    country: 🇸🇬SG
+    port: 443
+    password: amazonskr05
+    cipher: aes-256-cfb
+    delay: 1615
+  - name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 14
+    server: 18.139.61.105
+    type: trojan
+    country: 🇸🇬SG
+    port: 443
+    password: '65086520307764900'
+    sni: dynamic-shrew.shiner427.skin
+    skip-cert-verify: true
     udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    delay: 1231
+  - name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 3
+    server: 54.255.245.79
+    type: ss
+    country: 🇸🇬SG
+    port: 443
+    password: amazonskr05
+    cipher: aes-256-cfb
+    delay: 1127
+  - name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 4
+    server: 54.254.191.196
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    delay: 414
+  - name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 6
+    server: 18.143.78.171
+    port: 443
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tfo: false
+    delay: 829
+  - name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 7
+    server: 18.136.211.144
+    type: ss
+    country: 🇸🇬SG
+    port: 443
+    password: amazonskr05
+    cipher: aes-256-cfb
+    delay: 255
+  - name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 8
+    server: 13.229.128.74
+    type: ss
+    country: 🇸🇬SG
+    port: 443
+    password: amazonskr05
+    cipher: aes-256-cfb
+    delay: 461
+  - name: 新加坡 - 新加坡 - Amazon.com, Inc. - 5
+    server: 18.141.24.255
+    type: ss
+    country: 🇸🇬SG
+    port: 443
+    password: amazonskr05
+    cipher: aes-256-cfb
+    delay: 418
+  - name: 新加坡 - 新加坡 - Amazon.com, Inc. - 9
+    server: 13.250.112.201
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    delay: 270
+  - name: 新加坡 - 新加坡 - BrainStorm Network, Inc - 2
+    server: 103.106.229.219
+    port: 989
+    type: ss
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+    delay: 887
+  - name: 新加坡 - 新加坡 - Cloudflare, Inc. - 15
+    server: 43.156.205.36
+    type: vless
+    port: 7777
+    udp: true
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: vz.bgm2024.us.kg
-    delay: 1274
-  - name: 立陶宛 - 维尔纽斯 - ONEPROVIDER - 1
-    server: 185.237.185.160
-    type: ss
-    country: 🇱🇹LT
-    port: 989
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-    delay: 2062
-  - name: 美国 - Reston - Cloudflare, Inc. - 15
-    server: 172.66.206.205
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 747
+  - name: 日本 - Ōkubo-naka - Cloudflare, Inc. - 2
+    server: 138.2.36.157
     type: vless
     port: 8443
     udp: true
@@ -868,67 +507,38 @@ proxies:
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 2423
-  - name: 美国 - Reston - Cloudflare, Inc. - 80
-    server: 104.24.148.115
-    port: 80
-    type: vless
-    uuid: 9f0eae34-97c1-4c07-8a55-438379981334
-    tls: false
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snowy-bush-4df8-ppal03.toxebex651.workers.dev
-    delay: 2017
-  - name: 美国 - Reston - Cloudflare, Inc. - 81
-    server: 104.24.148.184
-    port: 80
-    type: vless
-    uuid: 01cb18d1-2062-47e7-999b-ec08e8b2ec85
-    tls: false
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: muddy-rain-0a28-ppal03.mitey24737.workers.dev
-    delay: 2114
-  - name: 美国 - Reston - Cloudflare, Inc. - 82
-    server: 104.24.138.64
-    port: 80
-    type: vless
-    uuid: 5d8bc42a-d345-4bd3-a844-4b90afc44670
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: patient-shadow-baf1-ppal03.hohel98085.workers.dev
-    delay: 2026
-  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 16
-    server: 162.159.44.78
-    type: vless
-    port: 2096
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1007
-  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 17
-    server: ignacio.ns.cloudflare.com
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 1935
+  - name: 日本 - 东京 - Global Connectivity Solutions LLP - 1
+    server: gdgs.tarioblink.me
+    type: ss
+    country: 🇨🇳CN
+    port: 30003
+    password: 9da3612f-bba1-4345-bc77-ce8a0ecf8d5e
+    cipher: chacha20-ietf-poly1305
+    delay: 1005
+  - name: 日本 - 东京 - Global Connectivity Solutions LLP - 4
+    server: gdgs.tarioblink.me
+    type: ss
+    country: 🇨🇳CN
+    port: 30003
+    password: 25bb46e8-d80f-4b48-9272-7129e88366b2
+    cipher: chacha20-ietf-poly1305
+    delay: 673
+  - name: 日本 - 大阪市 - OPTAGE Inc. - 5
+    server: 120.232.81.50
+    type: ss
+    country: 🇨🇳CN
+    port: 15084
+    password: hGkQ6915tD
+    cipher: aes-256-cfb
+    delay: 1909
+  - name: 日本 - 成田市 - Cloudflare, Inc. - 3
+    server: 154.31.113.72
     type: vless
     port: 443
     udp: true
@@ -936,44 +546,433 @@ proxies:
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1032
-  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 18
-    server: 162.159.44.230
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 1607
+  - name: 法国 - 奧奈叢林 - Cloudflare, Inc. - 2
+    server: 141.145.205.115
     type: vless
-    port: 2053
+    port: 8443
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: re.vs2024.us.kg
+    ws-opts:
+      path: /?ed=2560&proxyip=proxyip.oracle.fxxk.dedyn.io
+      headers:
+        Host: re.vs2024.us.kg
+    delay: 1163
+  - name: 法国 - 巴黎 - Amazon Technologies Inc. - 1
+    server: 15.236.216.189
+    type: trojan
+    country: 🇫🇷FR
+    port: 22222
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    udp: true
+    delay: 1762
+  - name: 波兰 - Mazovia - Global Connectivity Solutions LLP - 15
+    server: 77.83.246.74
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: OErGEINn5GzpACOcFFJtWV
+    delay: 1186
+  - name: 波兰 - 华沙 - Melbikomas UAB - 1
+    server: 217.30.10.18
+    port: 9059
+    type: ss
+    cipher: aes-256-cfb
+    password: 9XwYyZsK8SNzQDtY
+    delay: 1949
+  - name: 波兰 - 华沙 - Melbikomas UAB - 10
+    server: 217.30.10.18
+    type: ss
+    country: 🇵🇱PL
+    port: 9084
+    password: c3NtHJ5ujV2tGDfj
+    cipher: aes-256-cfb
+    delay: 1894
+  - name: 波兰 - 华沙 - Melbikomas UAB - 11
+    server: 217.30.10.18
+    port: 9031
+    type: ss
+    cipher: aes-256-cfb
+    password: BwcAUZk8hUFAkDGN
+    delay: 1524
+  - name: 波兰 - 华沙 - Melbikomas UAB - 12
+    server: 217.30.10.18
+    port: 9027
+    type: ss
+    cipher: aes-256-cfb
+    password: EXN3S3eQpjE7EJu8
+    delay: 2118
+  - name: 波兰 - 华沙 - Melbikomas UAB - 13
+    server: 217.30.10.18
+    port: 9040
+    type: ss
+    cipher: aes-256-cfb
+    password: p9z5BVADH2YFs3MN
+    delay: 1673
+  - name: 波兰 - 华沙 - Melbikomas UAB - 14
+    server: 217.30.10.18
+    port: 9026
+    type: ss
+    cipher: aes-256-cfb
+    password: QWDDvVE9npNurQfA
+    delay: 1319
+  - name: 波兰 - 华沙 - Melbikomas UAB - 2
+    server: 217.30.10.18
+    port: 9079
+    type: ss
+    cipher: aes-256-cfb
+    password: TPqX8edgbAURcAMb
+    delay: 1278
+  - name: 波兰 - 华沙 - Melbikomas UAB - 21
+    server: 217.30.10.18
+    type: ss
+    country: 🇵🇱PL
+    port: 9050
+    password: FG5ddLsMPbV5CutE
+    cipher: aes-256-cfb
+    delay: 2695
+  - name: 波兰 - 华沙 - Melbikomas UAB - 3
+    server: 217.30.10.18
+    port: 9042
+    type: ss
+    cipher: aes-256-cfb
+    password: S7KwUu7yBy58S3Ga
+    delay: 1052
+  - name: 波兰 - 华沙 - Melbikomas UAB - 4
+    server: 217.30.10.18
+    port: 9020
+    type: ss
+    cipher: aes-256-cfb
+    password: BNmAXXxAHYpTRdzu
+    delay: 1910
+  - name: 波兰 - 华沙 - Melbikomas UAB - 5
+    server: 217.30.10.18
+    port: 9093
+    type: ss
+    cipher: aes-256-cfb
+    password: wfLC2y7rzZyCmuyt
+    delay: 1195
+  - name: 波兰 - 华沙 - Melbikomas UAB - 6
+    server: 217.30.10.18
+    port: 9025
+    type: ss
+    cipher: aes-256-cfb
+    password: XPtzA9sCug3SPR4c
+    delay: 1059
+  - name: 波兰 - 华沙 - Melbikomas UAB - 7
+    server: 217.30.10.18
+    type: ss
+    country: 🏁 ZZ
+    port: 9056
+    password: rNBfNuuANFCAk7KB
+    cipher: aes-256-cfb
+    delay: 1671
+  - name: 波兰 - 华沙 - Melbikomas UAB - 8
+    server: 217.30.10.18
+    port: 9094
+    type: ss
+    cipher: aes-256-cfb
+    password: rpgbNnU9rDDU4aWZ
+    delay: 1858
+  - name: 波兰 - 华沙 - Melbikomas UAB - 9
+    server: 217.30.10.18
+    type: ss
+    country: 🇵🇱 PL
+    port: 9014
+    password: KnJGad3FqTvjqbaX
+    cipher: aes-256-cfb
+    delay: 1453
+  - name: 波兰 - 普魯斯科夫 - Cloudflare, Inc. - 16
+    server: 185.238.74.193
+    type: vless
+    port: 443
     udp: true
     uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 899
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 2405
+  - name: 波兰 - 普魯斯科夫 - Cloudflare, Inc. - 17
+    server: 185.188.147.79
+    type: vless
+    port: 443
+    udp: true
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: ngedc.ambercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 1363
+  - name: 波兰 - 普魯斯科夫 - Cloudflare, Inc. - 18
+    server: 45.85.210.217
+    type: vless
+    port: 10913
+    udp: true
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: ngedc.ambercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 2250
+  - name: 波兰 - 普魯斯科夫 - Cloudflare, Inc. - 19
+    server: 45.85.210.234
+    type: vless
+    port: 25463
+    udp: true
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: ngedc.ambercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 1333
+  - name: 波兰 - 普魯斯科夫 - Cloudflare, Inc. - 20
+    server: 185.144.245.62
+    type: vless
+    port: 18556
+    udp: true
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: ngedc.ambercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 2607
+  - name: 爱尔兰 - 都柏林 - Amazon.com, Inc. - 1
+    server: 99.80.81.224
+    type: trojan
+    country: 🇮🇪IE
+    port: 22222
+    password: telegram-id-directvpn
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    udp: true
+    delay: 1674
+  - name: 瑞典 - Steninge - Cloudflare, Inc. - 1
+    server: 129.151.204.91
+    type: vless
+    port: 443
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: re.vs2024.us.kg
+    ws-opts:
+      path: /?ed=2560&proxyip=129.151.204.91:443
+      headers:
+        Host: re.vs2024.us.kg
+    delay: 2352
+  - name: 瑞典 - Steninge - Cloudflare, Inc. - 2
+    server: 129.151.198.3
+    type: vless
+    port: 8443
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: re.vs2024.us.kg
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: re.vs2024.us.kg
+    delay: 1259
+  - name: 瑞士 - 温特图尔 - Cloudflare, Inc. - 1
+    server: 140.238.218.65
+    type: vless
+    port: 8443
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: re.vs2024.us.kg
+    ws-opts:
+      path: /?ed=2560&proxyip=proxyip.oracle.fxxk.dedyn.io
+      headers:
+        Host: re.vs2024.us.kg
+    delay: 1269
+  - name: 美国 - Ashburn - Amazon.com - 2
+    server: arriving-longhorn.shiner427.skin
+    port: 443
+    type: trojan
+    password: 65086520307764900
+    skip-cert-verify: true
+    delay: 2251
+  - name: 美国 - Ashburn - Amazon.com - 4
+    server: 44.213.197.235
+    port: 443
+    type: trojan
+    password: 65086520307764900
+    sni: arriving-longhorn.shiner427.skin
+    skip-cert-verify: true
+    udp: true
+    delay: 1237
+  - name: 美国 - Reston - Cloudflare, Inc. - 19
+    server: 129.159.84.71
+    type: vless
+    port: 443
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: re.vs2024.us.kg
+    ws-opts:
+      path: /?ed=2560&proxyip=129.159.84.71:443
+      headers:
+        Host: re.vs2024.us.kg
+    delay: 1473
+  - name: 美国 - Reston - Cloudflare, Inc. - 47
+    server: 104.24.181.248
+    port: 80
+    type: vless
+    uuid: faa47bdc-8581-4e47-a557-35caa72681bd
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: delicate-feather-dc36-ppal03.shah-beck.workers.dev
+    delay: 1055
+  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 20
+    server: 107.174.79.149
+    type: vless
+    port: 443
+    udp: true
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: ngedc.ambercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 1201
+  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 22
+    server: 154.9.241.153
+    type: vless
+    port: 38978
+    udp: true
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: ngedc.ambercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 1150
   - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 26
-    server: 162.159.44.235
+    server: 154.21.93.44
     type: vless
-    port: 2053
+    port: 6667
     udp: true
     uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 845
-  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 49
-    server: 154.17.224.83
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 772
+  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 27
+    server: 38.59.242.216
+    type: vless
+    port: 30002
+    udp: true
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: ngedc.ambercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 964
+  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 28
+    server: 91.217.139.169
+    type: vless
+    port: 587
+    udp: true
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: ngedc.ambercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 955
+  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 29
+    server: 45.140.88.118
+    type: vless
+    port: 8443
+    udp: true
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: ngedc.ambercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 959
+  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 30
+    server: 185.183.84.93
+    type: vless
+    port: 30001
+    udp: true
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: ngedc.ambercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 970
+  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 31
+    server: 45.12.88.150
     type: vless
     port: 443
     udp: true
@@ -981,131 +980,58 @@ proxies:
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 838
-  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 50
-    server: 8.209.243.110
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 938
+  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 32
+    server: 23.165.40.54
     type: vless
-    port: 8175
+    port: 443
     udp: true
     uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1577
-  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 52
-    server: 154.17.17.205
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 947
+  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 33
+    server: 154.21.88.20
     type: vless
-    port: 11349
+    port: 443
     udp: true
     uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 851
-  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 58
-    server: 104.18.26.94
-    port: 80
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 916
+  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 39
+    server: 185.183.84.96
     type: vless
-    uuid: 61ff8b60-2be0-40a6-94b5-92cca33f1fab
-    tls: false
-    servername: sedalat.tatexe3807.workers.dev
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sedalat.tatexe3807.workers.dev
-    delay: 801
-  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 59
-    server: 104.18.27.94
-    port: 80
-    type: vless
-    uuid: 61ff8b60-2be0-40a6-94b5-92cca33f1fab
-    tls: false
-    servername: sedalat.tatexe3807.workers.dev
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sedalat.tatexe3807.workers.dev
-    delay: 811
-  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 60
-    server: 109.107.137.110
-    type: vless
-    port: 11288
+    port: 50022
     udp: true
     uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1099
-  - name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 64
-    server: 104.18.27.94
-    type: vless
-    port: 80
-    udp: true
-    uuid: 572d1cbe-1c26-4765-8865-7ee3ad737c5a
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: esetsecuritylicense.mikon76654.workers.dev
-    ws-opts:
-      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
-      headers:
-        Host: esetsecuritylicense.mikon76654.workers.dev
-    delay: 797
-  - name: 美国 - 拉斯维加斯 - FranTech Solutions - 61
-    server: tk.hzlt.tkddns.xyz
-    port: 22641
-    type: vmess
-    uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-    alterId: 2
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: zxjp-a.tkong.cc
-    udp: true
-    delay: 1779
-  - name: 美国 - 拉斯维加斯 - FranTech Solutions - 62
-    server: tk.hzlt.tkddns.xyz
-    port: 22643
-    type: vmess
-    uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-    alterId: 2
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: zxjp-c.tkong.cc
-    delay: 1610
-  - name: 美国 - 拉斯维加斯 - FranTech Solutions - 63
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 831
+  - name: 美国 - 拉斯维加斯 - FranTech Solutions - 42
     server: tk.hzlt.tkddns.xyz
     port: 22642
     type: vmess
@@ -1119,46 +1045,43 @@ proxies:
       path: /
       headers:
         Host: zxjp-b.tkong.cc
-    delay: 1756
-  - name: 美国 - 水牛城 - ColoCrossing - 45
-    server: 107.172.157.148
-    type: vless
-    port: 30944
-    udp: true
-    uuid: 819664e1-26f2-49db-8025-b18adee8fd2c
+    delay: 1532
+  - name: 美国 - 拉斯维加斯 - FranTech Solutions - 46
+    server: tk.hzlt.tkddns.xyz
+    port: 22643
+    type: vmess
+    uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+    alterId: 2
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    client-fingerprint: chrome
-    delay: 863
-  - name: 美国 - 波特蘭 - Amazon.com, Inc. - 3
-    server: 54.185.251.195
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: zxjp-c.tkong.cc
+    delay: 1842
+  - name: 美国 - 拉斯维加斯 - FranTech Solutions - 7
+    server: u2.huvicloud.com
+    type: vmess
+    country: 🇺🇸US
     port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    delay: 782
-  - name: 美国 - 波特蘭 - Amazon.com, Inc. - 4
-    server: 52.37.136.134
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    delay: 777
-  - name: 美国 - 波特蘭 - Amazon.com, Inc. - 5
-    server: 54.245.146.74
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    delay: 725
-  - name: 美国 - 波特蘭 - Amazon.com, Inc. - 6
-    server: 54.71.17.51
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    delay: 686
-  - name: 美国 - 波特蘭 - Amazon.com, Inc. - 8
-    server: 35.94.24.233
+    uuid: f07b9711-a6a4-4128-807d-fdb40dcaa488
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: u2.huvicloud.com
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /f07b9711-a6a4-4128-807d-fdb40dcaa488
+      headers:
+        HOST: u2.huvicloud.com
+    delay: 2407
+  - name: 美国 - 波特蘭 - Amazon.com, Inc. - 1
+    server: 54.190.43.178
     port: 443
     type: ssr
     cipher: aes-256-cfb
@@ -1167,35 +1090,50 @@ proxies:
     obfs: plain
     protocol-param: ''
     obfs-param: ''
-    delay: 1284
-  - name: 美国 - 波特蘭 - Cloudflare, Inc. - 85
-    server: 52.32.90.142
-    port: 80
-    type: trojan
-    password: Aimer
-    sni: ngepx.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ngepx.ambercc.filegear-sg.me
-    delay: 1403
-  - name: 美国 - 洛杉矶 - Cogent Communications - 77
-    server: bzryjncvbwng.xn--fiqs8sjz2bull.com
-    port: 23763
-    type: vmess
-    uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    delay: 1691
-  - name: 美国 - 洛杉矶 - HostPapa - 7
-    server: s1.db-link02.top
+    delay: 2994
+  - name: 美国 - 波特蘭 - Amazon.com, Inc. - 10
+    server: 44.246.37.239
+    type: ssr
+    port: 443
+    password: amazonskr05
+    cipher: aes-256-cfb
+    protocol: origin
+    obfs: plain
+    delay: 672
+  - name: 美国 - 波特蘭 - Amazon.com, Inc. - 3
+    server: 35.91.132.50
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    delay: 704
+  - name: 美国 - 波特蘭 - Amazon.com, Inc. - 5
+    server: 34.217.145.61
+    port: 443
+    type: ssr
+    cipher: aes-256-cfb
+    password: amazonskr05
+    protocol: origin
+    obfs: plain
+    protocol-param: ''
+    obfs-param: ''
+    delay: 2237
+  - name: 美国 - 波特蘭 - Amazon.com, Inc. - 6
+    server: 34.219.5.41
+    port: 443
+    type: ssr
+    cipher: aes-256-cfb
+    password: amazonskr05
+    protocol: origin
+    obfs: plain
+    protocol-param: ''
+    obfs-param: ''
+    delay: 1548
+  - name: 美国 - 洛杉矶 - HostPapa - 8
+    server: s2.cn-db.top
     type: vmess
     port: 2052
-    udp: true
-    uuid: 975cb2da-5437-37c6-88ba-6a08b74ea53c
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
     alterId: 0
     cipher: auto
     network: ws
@@ -1203,834 +1141,349 @@ proxies:
     h2-opts: {}
     skip-cert-verify: true
     ws-opts:
-      path: /dabai.in104.21.168.159
+      path: /dabai.in104.17.31.68
       headers:
-        Host: 100-193-104-61.s1.db-link02.top
-    delay: 2719
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 10
-    server: 63.141.128.218
-    type: vless
-    port: 443
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+        Host: 100-252-79-9.s2.cn-db.top
+    delay: 2137
+  - name: 美国 - 洛杉矶 - HostPapa - 9
+    server: s2.cn-db.top
+    type: vmess
+    port: 80
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    alterId: 0
+    cipher: auto
     network: ws
-    tls: true
+    http-opts: {}
+    h2-opts: {}
     skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
     ws-opts:
-      path: /?ed=2560&proxyip=63.141.128.218:443
+      path: /dabai.in104.20.88.75
       headers:
-        Host: vz.bgm2024.us.kg
-    delay: 1731
+        Host: 100-154-87-93.s2.cn-db.top
+    delay: 2715
   - name: 美国 - 聖荷西 - Cloudflare, Inc. - 11
-    server: 45.131.7.207
+    server: 206.238.236.29
     type: vless
-    port: 80
+    port: 2087
     udp: true
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
-    ws-opts:
-      path: Telegram@WangCai2/?ed=2048
-      headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 1376
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 12
-    server: 92.60.74.100
-    type: vless
-    port: 443
-    udp: true
-    uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: mmdserver.us.kg
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
-      path: /?ed=2048
+      path: /?ed=2560
       headers:
-        Host: mmdserver.us.kg
-    delay: 1794
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 13
-    server: 45.131.7.236
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 2807
+  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 12
+    server: pranab.ns.cloudflare.com
     type: vless
-    port: 80
+    port: 443
     udp: true
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
+    tls: true
     skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
-      path: Telegram@WangCai2/?ed=2048
+      path: /?ed=2560
       headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 1317
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 2222
+  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 13
+    server: 185.133.35.99
+    type: vless
+    port: 443
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: re.vs2024.us.kg
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: re.vs2024.us.kg
+    delay: 2301
   - name: 美国 - 聖荷西 - Cloudflare, Inc. - 14
+    server: 194.76.18.99
+    type: vless
+    port: 443
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: re.vs2024.us.kg
+    ws-opts:
+      path: /?ed=2560&proxyip=194.76.18.99:443
+      headers:
+        Host: re.vs2024.us.kg
+    delay: 2595
+  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 15
+    server: 160.79.105.12
+    type: vless
+    port: 443
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: re.vs2024.us.kg
+    ws-opts:
+      path: /?ed=2560&proxyip=160.79.105.12:443
+      headers:
+        Host: re.vs2024.us.kg
+    delay: 2301
+  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 16
+    server: 130.250.137.107
+    type: vless
+    port: 443
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: re.vs2024.us.kg
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: re.vs2024.us.kg
+    delay: 1514
+  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 17
     server: 63.141.128.58
     type: vless
     port: 443
     udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
+    servername: re.vs2024.us.kg
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: vz.bgm2024.us.kg
-    delay: 1768
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 19
-    server: 130.250.137.19
+        Host: re.vs2024.us.kg
+    delay: 1773
+  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 18
+    server: 160.79.104.98
     type: vless
     port: 443
     udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
+    servername: re.vs2024.us.kg
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: vz.bgm2024.us.kg
-    delay: 1774
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 20
-    server: 45.131.209.66
-    type: vless
-    port: 80
-    udp: true
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
-    ws-opts:
-      path: Telegram@WangCai2/?ed=2048
-      headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 1479
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 21
-    server: 45.131.7.197
-    type: vless
-    port: 80
-    udp: true
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
-    ws-opts:
-      path: Telegram@WangCai2/?ed=2048
-      headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 1333
+        Host: re.vs2024.us.kg
+    delay: 1519
   - name: 美国 - 聖荷西 - Cloudflare, Inc. - 23
-    server: 63.141.128.241
+    server: 27.50.48.21
     type: vless
     port: 443
     udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: vz.bgm2024.us.kg
-    delay: 1858
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 1434
   - name: 美国 - 聖荷西 - Cloudflare, Inc. - 24
-    server: 212.183.88.24
+    server: 206.238.237.243
     type: vless
     port: 443
     udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
+    servername: re.vs2024.us.kg
     ws-opts:
-      path: /?ed=2560&proxyip=212.183.88.24:443
+      path: /?ed=2560&proxyip=206.238.237.243:443
       headers:
-        Host: vz.bgm2024.us.kg
-    delay: 1510
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 25
-    server: 45.131.7.183
-    type: vless
-    port: 80
-    udp: true
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
-    ws-opts:
-      path: Telegram@WangCai2/?ed=2048
-      headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 1182
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 27
-    server: 212.183.88.43
-    type: vless
-    port: 443
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: vz.bgm2024.us.kg
-    delay: 1789
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 28
-    server: 45.131.210.25
-    type: vless
-    port: 80
-    udp: true
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
-    ws-opts:
-      path: Telegram@WangCai2/?ed=2048
-      headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 1380
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 29
-    server: 185.133.35.228
-    type: vless
-    port: 443
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: vz.bgm2024.us.kg
-    delay: 1566
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 30
-    server: 212.183.88.162
-    type: vless
-    port: 443
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: vz.bgm2024.us.kg
-    delay: 1197
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 31
-    server: 185.133.35.78
-    type: vless
-    port: 443
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: vz.bgm2024.us.kg
-    delay: 1800
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 32
-    server: 135.84.76.115
-    type: vless
-    port: 443
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: vz.bgm2024.us.kg
-    delay: 1733
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 33
-    server: 45.131.210.88
-    type: vless
-    port: 80
-    udp: true
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
-    ws-opts:
-      path: Telegram@WangCai2/?ed=2048
-      headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 1317
+        Host: re.vs2024.us.kg
+    delay: 2300
   - name: 美国 - 聖荷西 - Cloudflare, Inc. - 35
+    server: 160.79.104.103
+    type: vless
+    port: 443
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: re.vs2024.us.kg
+    ws-opts:
+      path: /?ed=2560&proxyip=160.79.104.103:443
+      headers:
+        Host: re.vs2024.us.kg
+    delay: 2847
+  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 36
+    server: 135.84.76.105
+    type: vless
+    port: 443
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: re.vs2024.us.kg
+    ws-opts:
+      path: /?ed=2560&proxyip=135.84.76.105:443
+      headers:
+        Host: re.vs2024.us.kg
+    delay: 1480
+  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 37
+    server: 192.0.54.18
+    type: vless
+    port: 443
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: re.vs2024.us.kg
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: re.vs2024.us.kg
+    delay: 1876
+  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 38
     server: 212.183.88.176
     type: vless
     port: 443
     udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
+    servername: re.vs2024.us.kg
     ws-opts:
-      path: /?ed=2560
+      path: /?ed=2560&proxyip=212.183.88.176:443
       headers:
-        Host: vz.bgm2024.us.kg
-    delay: 1477
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 36
-    server: 63.141.128.96
-    type: vless
-    port: 443
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: vz.bgm2024.us.kg
-    delay: 1781
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 37
-    server: theo.ns.cloudflare.com
-    type: vless
-    port: 443
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1828
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 38
-    server: duke.ns.cloudflare.com
-    type: vless
-    port: 443
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1664
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 39
-    server: 45.131.209.231
-    type: vless
-    port: 80
-    udp: true
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
-    ws-opts:
-      path: Telegram@WangCai2/?ed=2048
-      headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 1352
+        Host: re.vs2024.us.kg
+    delay: 1895
   - name: 美国 - 聖荷西 - Cloudflare, Inc. - 40
-    server: damien.ns.cloudflare.com
+    server: 45.67.215.98
     type: vless
     port: 443
     udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: re.vs2024.us.kg
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1834
+        Host: re.vs2024.us.kg
+    delay: 1847
   - name: 美国 - 聖荷西 - Cloudflare, Inc. - 41
-    server: kip.ns.cloudflare.com
+    server: 63.141.128.122
     type: vless
     port: 443
     udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: re.vs2024.us.kg
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1790
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 42
-    server: 104.16.178.96
-    type: vless
-    port: 80
-    udp: true
-    uuid: b8a0fe1a-fbea-4572-a878-20b7f7c98636
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: sweet-glade-2430-ppal03.xasev15708.workers.dev
-    ws-opts:
-      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
-      headers:
-        Host: sweet-glade-2430-ppal03.xasev15708.workers.dev
-    delay: 1719
+        Host: re.vs2024.us.kg
+    delay: 1857
   - name: 美国 - 聖荷西 - Cloudflare, Inc. - 43
-    server: 45.131.6.6
+    server: 185.16.110.91
     type: vless
-    port: 8080
+    port: 443
     udp: true
-    uuid: f47fb03f-7f15-41e0-bd7e-2371dc710e32
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
     network: ws
+    tls: true
     skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: c00021he.ab7db0ab17.workers.dev
+    servername: re.vs2024.us.kg
     ws-opts:
-      path: Telegram@WangCai2/?ed=2048
+      path: /?ed=2560&proxyip=185.16.110.91:443
       headers:
-        Host: c00021he.ab7db0ab17.workers.dev
-    delay: 1367
+        Host: re.vs2024.us.kg
+    delay: 1458
   - name: 美国 - 聖荷西 - Cloudflare, Inc. - 44
-    server: 45.131.210.137
-    type: vless
+    server: 198.41.209.27
     port: 80
-    udp: true
+    type: vless
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    tls: false
+    servername: a.mifeng.us.kg
     network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
     ws-opts:
-      path: Telegram@WangCai2/?ed=2048
+      path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed
       headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 2452
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 46
-    server: 104.16.53.48
-    type: vless
+        Host: a.mifeng.us.kg
+    delay: 1818
+  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 45
+    server: 173.245.49.53
     port: 80
-    uuid: c1659206-d827-41f6-9f73-f18ca30102d3
-    network: ws
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: still-forest-e3e8-ppal03.mekah93880.workers.dev
-    delay: 1707
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 47
-    server: 45.131.209.39
     type: vless
-    port: 80
-    udp: true
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    tls: false
+    servername: a.mifeng.us.kg
     network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
     ws-opts:
-      path: Telegram@WangCai2/?ed=2048
+      path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
       headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 2959
+        Host: a.mifeng.us.kg
+    delay: 604
   - name: 美国 - 聖荷西 - Cloudflare, Inc. - 48
-    server: 172.82.16.99
-    type: vless
-    port: 443
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: vz.bgm2024.us.kg
-    delay: 822
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 51
-    server: 45.131.211.139
-    type: vless
+    server: 198.41.201.163
     port: 80
-    udp: true
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
-    ws-opts:
-      path: Telegram@WangCai2/?ed=2048
-      headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 1211
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 53
-    server: 45.131.7.194
     type: vless
-    port: 80
-    udp: true
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    tls: false
+    servername: a.mifeng.us.kg
     network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
     ws-opts:
-      path: Telegram@WangCai2/?ed=2048
+      path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
       headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 1378
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 54
-    server: 45.131.210.233
-    type: vless
-    port: 80
+        Host: a.mifeng.us.kg
     udp: true
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
-    ws-opts:
-      path: Telegram@WangCai2/?ed=2048
-      headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 1398
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 55
-    server: 45.131.209.203
+    delay: 1488
+  - name: 美国 - 肯特 - Cloudflare, Inc. - 21
+    server: 38.22.91.158
     type: vless
-    port: 80
-    udp: true
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
-    ws-opts:
-      path: Telegram@WangCai2/?ed=2048
-      headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 1342
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 56
-    server: 45.131.210.129
-    type: vless
-    port: 80
-    udp: true
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
-    ws-opts:
-      path: Telegram@WangCai2/?ed=2048
-      headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 1325
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 57
-    server: 47.79.86.103
-    type: vless
-    port: 587
+    port: 30001
     udp: true
     uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 927
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 65
-    server: lynn.ns.cloudflare.com
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 862
+  - name: 美国 - 阿瓦達 - OVH US LLC - 25
+    server: 135.148.14.5
     type: vless
     port: 443
     udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 2098
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 66
-    server: arvind.ns.cloudflare.com
-    type: vless
-    port: 443
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1183
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 67
-    server: 198.41.218.111
-    type: vless
-    port: 80
-    udp: true
-    uuid: 76b3cbba-e6ac-485a-9481-336a0415eab9
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: OlD-disk-EFCd.JojAhoF109.WorKerS.DEv
-    ws-opts:
-      path: /
-      headers:
-        Host: OlD-disk-EFCd.JojAhoF109.WorKerS.DEv
-    delay: 2045
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 68
-    server: 45.131.209.171
-    type: vless
-    port: 80
-    udp: true
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
-    ws-opts:
-      path: Telegram@WangCai2/?ed=2048
-      headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 1749
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 69
-    server: 45.159.218.11
-    type: vless
-    port: 80
-    uuid: 64d39d67-62dc-470c-a592-1d5a6ee87cb5
-    network: ws
-    client-fingerprint: chrome
-    servername: worker-flat-disk-100d.b9563f65aef681.workers.dev
-    ws-opts:
-      path: /?ed=2048fp=chrome
-      headers:
-        Host: worker-flat-disk-100d.b9563f65aef681.workers.dev
-    delay: 2261
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 70
-    server: 45.159.218.13
-    type: vless
-    port: 80
-    uuid: 64d39d67-62dc-470c-a592-1d5a6ee87cb5
-    network: ws
-    client-fingerprint: chrome
-    servername: worker-flat-disk-100d.b9563f65aef681.workers.dev
-    ws-opts:
-      path: /?ed=2048fp=chrome
-      headers:
-        Host: worker-flat-disk-100d.b9563f65aef681.workers.dev
-    delay: 1292
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 71
-    server: 45.159.218.14
-    type: vless
-    port: 80
-    uuid: 64d39d67-62dc-470c-a592-1d5a6ee87cb5
-    network: ws
-    client-fingerprint: chrome
-    servername: worker-flat-disk-100d.b9563f65aef681.workers.dev
-    ws-opts:
-      path: /?ed=2048fp=chrome
-      headers:
-        Host: worker-flat-disk-100d.b9563f65aef681.workers.dev
-    delay: 1853
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 72
-    server: 45.159.218.8
-    type: vless
-    port: 80
-    uuid: 64d39d67-62dc-470c-a592-1d5a6ee87cb5
-    network: ws
-    client-fingerprint: chrome
-    servername: worker-flat-disk-100d.b9563f65aef681.workers.dev
-    ws-opts:
-      path: /?ed=2048fp=chrome
-      headers:
-        Host: worker-flat-disk-100d.b9563f65aef681.workers.dev
-    delay: 2446
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 73
-    server: 45.159.218.17
-    type: vless
-    port: 80
-    uuid: 64d39d67-62dc-470c-a592-1d5a6ee87cb5
-    network: ws
-    client-fingerprint: chrome
-    servername: worker-flat-disk-100d.b9563f65aef681.workers.dev
-    ws-opts:
-      path: /?ed=2048fp=chrome
-      headers:
-        Host: worker-flat-disk-100d.b9563f65aef681.workers.dev
-    delay: 2423
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 74
-    server: 45.131.7.163
-    type: vless
-    port: 80
-    udp: true
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
-    ws-opts:
-      path: Telegram@WangCai2/?ed=2048
-      headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 1883
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 75
-    server: 45.159.218.2
-    type: vless
-    port: 80
-    uuid: 64d39d67-62dc-470c-a592-1d5a6ee87cb5
-    network: ws
-    client-fingerprint: chrome
-    servername: worker-flat-disk-100d.b9563f65aef681.workers.dev
-    ws-opts:
-      path: /?ed=2048fp=chrome
-      headers:
-        Host: worker-flat-disk-100d.b9563f65aef681.workers.dev
-    delay: 2748
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 76
-    server: 27.50.49.166
-    port: 8443
-    type: trojan
-    password: Aimer
-    sni: ngepx.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: ''
-      headers:
-        Host: ngepx.ambercc.filegear-sg.me
-    delay: 2568
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 78
-    server: 154.211.8.18
-    port: 2083
-    type: trojan
-    password: Aimer
-    sni: ngepy.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: ''
-      headers:
-        Host: ngepy.ambercc.filegear-sg.me
-    delay: 2395
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 79
-    server: 103.116.7.189
-    port: 443
-    type: trojan
-    password: Aimer
-    sni: ngepx.ambercc.filegear-sg.me
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: ''
-      headers:
-        Host: ngepx.ambercc.filegear-sg.me
-    delay: 1773
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 83
-    server: 213.241.198.59
-    port: 2083
-    type: trojan
-    password: Aimer
-    sni: ngepx.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ngepx.ambercc.filegear-sg.me
-    delay: 2231
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 84
-    server: 108.165.152.104
-    port: 2053
-    type: trojan
-    password: Aimer
-    sni: ngepx.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ngepx.ambercc.filegear-sg.me
-    delay: 2303
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 9
-    server: 45.131.210.42
-    type: vless
-    port: 80
-    udp: true
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: abaaba.9pcvkb68.workers.dev
-    ws-opts:
-      path: Telegram@WangCai2/?ed=2048
-      headers:
-        Host: abaaba.9pcvkb68.workers.dev
-    delay: 1312
-  - name: 美国 - 聖荷西 - PEG TECH INC - 2
-    server: 38.11.50.72
-    type: vmess
-    country: 🇺🇸US
-    port: 31005
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    servername: www.65420682.xyz
-    http-opts: {}
-    h2-opts: {}
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /path/1737194780660
-      headers:
-        HOST: www.65420682.xyz
-    delay: 2146
-  - name: 美国 - 迈阿密 - GTHost - 1
-    server: 38.110.1.12
-    type: ss
-    port: 5001
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-    delay: 2290
-  - name: 美国 - 阿瓦達 - OVH US LLC - 22
-    server: 15.204.151.43
-    type: vless
-    port: 443
-    udp: true
-    uuid: ea286109-d20f-415e-849e-4af20ab04b65
+    uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
     tls: true
     skip-cert-verify: true
     client-fingerprint: chrome
-    servername: 147135001195.sec22org.com
-    delay: 1230
+    servername: 147135001178.sec22org.com
+    delay: 1055
   - name: 美国 - 阿瓦達 - OVH US LLC - 34
-    server: 135.148.152.98
+    server: 47.251.95.178
     type: vless
     port: 443
     udp: true
@@ -2039,273 +1492,90 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     servername: 147135001195.sec22org.com
-    delay: 1084
-  - name: 芬兰 - 赫尔辛基 - ONEPROVIDER - 1
-    server: 37.143.129.230
-    port: 989
-    type: ss
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-    delay: 2845
-  - name: 芬兰 - 赫尔辛基 - Stark Industries Solutions LTD - 2
-    server: www.speedtest.net
-    type: vless
-    port: 2052
-    udp: true
-    uuid: b474a108-0004-5d30-bc05-1692bd001d6b
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: www-domain.fi2.vless.sitespeedtest.net
-    ws-opts:
-      path: /vless
-      headers:
-        Host: www-domain.fi2.vless.sitespeedtest.net
-    delay: 2512
-  - name: 英国 - 伦敦 - Amazon Technologies Inc. - 11
-    server: 18.168.66.40
-    port: 22222
-    type: vless
-    uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-    tls: true
-    servername: telegram-channel-vlessconfig.sohala.uk
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /telegram-channel-vlessconfig-ws
-    delay: 1293
-  - name: 英国 - 伦敦 - Amazon Technologies Inc. - 12
-    server: 35.177.123.37
-    port: 22222
-    type: vless
-    uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-    tls: true
-    servername: telegram-channel-vlessconfig.sohala.uk
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /telegram-channel-vlessconfig-ws
-    delay: 1427
-  - name: 英国 - 倫敦金融城 - Krystal Hosting Ltd - 1
-    server: 62.100.205.48
-    port: 989
-    type: ssr
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-    protocol: origin
-    obfs: plain
-    protocol-param: ''
-    obfs-param: ''
-    delay: 2093
-  - name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 10
-    server: 188.114.98.57
-    port: 80
-    type: vless
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: proud-queen-55500071.cexonoc962.workers.dev
     delay: 1299
-  - name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 2
-    server: xn--b6gac.eu.org
+  - name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 1
+    server: 141.147.92.143
     type: vless
-    port: 8080
+    port: 8443
     udp: true
-    uuid: 464d644c-9c10-4c02-9117-4c75b0c347cd
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
     network: ws
+    tls: true
     skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: wwwvisacomsg.mshcgb8q.workers.dev
-    ws-opts:
-      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
-      headers:
-        Host: wwwvisacomsg.mshcgb8q.workers.dev
-    delay: 1086
-  - name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 3
-    server: 104.21.40.164
-    type: vless
-    port: 8080
-    udp: true
-    uuid: 636b1684-b26c-4a9c-bc6e-8e1197a36d74
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: workerr.hashdiler.workers.dev
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: workerr.hashdiler.workers.dev
-    delay: 863
-  - name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 4
-    server: 172.67.135.195
-    port: 2052
-    type: vless
-    uuid: 0d710c53-876d-401f-97f0-6bd1a8db941a
-    tls: false
-    network: ws
-    ws-opts:
-      path: /J61hhknxUXEwJZLq/MTU5LjY5LjE1My4xMTQ=?ed=2560
-      headers:
-        Host: sWEeT-DIsK-b69d.TUdTudtrUHtRU.wOrkERS.dev
-    udp: true
-    delay: 1013
-  - name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 5
-    server: 104.21.7.50
-    type: vless
-    port: 2052
-    udp: true
-    uuid: 0d710c53-876d-401f-97f0-6bd1a8db941a
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: sWEeT-DIsK-b69d.TUdTudtrUHtRU.wOrkERS.dev
-    ws-opts:
-      path: /J61hhknxUXEwJZLq/MTU5LjY5LjE1My4xMTQ=?ed=2560
-      headers:
-        Host: sWEeT-DIsK-b69d.TUdTudtrUHtRU.wOrkERS.dev
-    delay: 867
-  - name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 6
-    server: 188.114.96.217
-    type: vless
-    port: 80
-    udp: true
-    uuid: 70aa6fd6-9d04-4657-9eaa-2946541f6deb
-    network: ws
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: 071ll2532.16965a6a7d.workers.dev
+    servername: re.vs2024.us.kg
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: 071ll2532.16965a6a7d.workers.dev
-    delay: 957
-  - name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 7
-    server: 104.21.64.1
+        Host: re.vs2024.us.kg
+    delay: 1525
+  - name: 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 2
+    server: 152.70.57.182
     type: vless
-    port: 2086
-    uuid: 7320522d-56c1-4e35-9fa7-88a151d76828
+    port: 443
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
     network: ws
-    client-fingerprint: chrome
-    servername: 07fd36f0-yuv2ray3131331456346534643.cocefob714.workers.dev
+    tls: true
+    skip-cert-verify: true
+    servername: re.vs2024.us.kg
     ws-opts:
-      path: /DdAtLiofda1FCcda?ed=2560
+      path: /?ed=2560
       headers:
-        Host: 07fd36f0-yuv2ray3131331456346534643.cocefob714.workers.dev
-    delay: 791
-  - name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 8
-    server: 104.21.57.76
-    type: vless
-    port: 80
-    uuid: 19b3cbba-e6ac-485a-9481-926a0415eab2
-    network: ws
-    servername: SHriLL-tErM-639B.TAGeLIt414.wOrkers.Dev
-    ws-opts:
-      path: /Nc0OWXRRyHScAFoY
-      headers:
-        Host: SHriLL-tErM-639B.TAGeLIt414.wOrkers.Dev
-    delay: 1036
-  - name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 9
-    server: 172.67.189.174
-    type: vless
-    port: 80
-    uuid: 19b3cbba-e6ac-485a-9481-926a0415eab2
-    network: ws
-    servername: sHrill-tErm-639b.TageLIT414.workeRs.dEv
-    ws-opts:
-      path: /HLWeBTaOv6byfXQ2
-      headers:
-        Host: sHrill-tErm-639b.TageLIT414.workeRs.dEv
-    delay: 1531
-  - name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 1
-    server: 45.158.171.66
-    port: 8080
+        Host: re.vs2024.us.kg
+    delay: 1274
+  - name: 荷兰 - 阿姆斯特丹 - Datacamp Limited - 1
+    server: 149.34.244.72
     type: ss
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    delay: 1337
-  - name: 荷兰 - 阿姆斯特丹 - Oracle Corporation - 2
-    server: south.sf0jm.xyz
-    port: 49207
-    type: ss
+    country: 🇺🇸US
+    port: 443
+    password: shadowsocks
     cipher: aes-128-gcm
-    password: 10ed4b04-fd54-4f14-82e4-2d0c073e8e51
-    delay: 744
-  - name: 越南 - Làng Hà - THREESDIGITAL - 1
-    server: 103.173.66.192
-    type: trojan
-    country: 🇻🇳VN
-    port: 443
-    password: 5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad
-    sni: cmc1.5gsieuvip.vn
-    skip-cert-verify: true
-    udp: true
-    delay: 1987
-  - name: 越南 - Làng Hà - THREESDIGITAL - 2
-    server: 103.173.66.191
-    port: 443
-    type: trojan
-    password: 5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad
-    sni: 103.173.66.191
-    skip-cert-verify: true
-    udp: true
-    delay: 1801
-  - name: 越南 - Làng Hà - THREESDIGITAL - 3
-    server: cmc2.5gsieuvip.vn
-    port: 443
-    type: trojan
-    password: 5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad
-    skip-cert-verify: true
-    delay: 2671
+    delay: 733
+  - name: 西班牙 - 查馬丁區 - Cloudflare, Inc. - 1
+    server: 94.250.246.200
+    type: vless
+    port: 8080
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    network: ws
+    tls: true
+    servername: a.mifeng.us.kg
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: a.mifeng.us.kg
+    delay: 2623
   - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 10
-    server: 221.149.132.232
+    server: 129.154.207.203
     type: vless
-    port: 50000
+    port: 443
     udp: true
     uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 848
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 816
   - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 11
-    server: 210.103.48.53
+    server: 119.202.158.65
     type: vless
-    port: 12601
+    port: 29798
     udp: true
     uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 904
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 1023
   - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 12
-    server: 220.77.114.12
-    type: vless
-    port: 11075
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 754
-  - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 13
-    server: 59.18.218.70
+    server: 210.183.11.2
     type: vless
     port: 50000
     udp: true
@@ -2313,174 +1583,181 @@ proxies:
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 763
-  - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 14
-    server: 183.102.71.200
-    type: vless
-    port: 50000
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
+        Host: ngedc.ambercc.filegear-sg.me
     delay: 853
-  - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 15
-    server: 121.132.58.142
+  - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 13
+    server: 175.201.220.169
     type: vless
-    port: 12452
+    port: 19222
     udp: true
     uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 825
-  - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 16
-    server: 211.222.211.60
-    type: vless
-    port: 50000
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 775
-  - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 3
-    server: 210.222.30.180
-    type: vless
-    port: 17100
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1031
-  - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 4
-    server: 106.240.1.52
-    type: vless
-    port: 20443
-    udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 808
-  - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 5
-    server: 118.47.65.248
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 764
+  - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 14
+    server: 211.218.223.130
     type: vless
     port: 30012
     udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
+    servername: re.vs2024.us.kg
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: vz.bgm2024.us.kg
-    delay: 1562
+        Host: re.vs2024.us.kg
+    delay: 1956
+  - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 15
+    server: 220.117.126.46
+    type: vless
+    port: 12462
+    udp: true
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: ngedc.ambercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 733
+  - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 16
+    server: 125.128.227.141
+    type: vless
+    port: 50000
+    udp: true
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: ngedc.ambercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 1281
+  - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 17
+    server: 59.22.140.62
+    type: vless
+    port: 12462
+    udp: true
+    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: ngedc.ambercc.filegear-sg.me
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 1085
   - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 6
-    server: 221.165.64.92
+    server: 114.30.225.88
     type: vless
-    port: 50000
+    port: 30030
     udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: re.vs2024.us.kg
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 820
+        Host: re.vs2024.us.kg
+    delay: 1136
   - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 7
-    server: 182.226.53.214
+    server: 211.105.35.130
     type: vless
-    port: 30157
+    port: 30012
     udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: vz.bgm2024.us.kg
+    servername: re.vs2024.us.kg
     ws-opts:
-      path: /?ed=2560
+      path: /?ed=2560&proxyip=211.105.35.130:30012
       headers:
-        Host: vz.bgm2024.us.kg
-    delay: 843
+        Host: re.vs2024.us.kg
+    delay: 1579
   - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 8
-    server: 193.123.225.248
+    server: 183.106.162.127
     type: vless
-    port: 28407
+    port: 18888
     udp: true
-    uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: re.vs2024.us.kg
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 1979
+        Host: re.vs2024.us.kg
+    delay: 1544
   - name: 韩国 - Yeongdong-gun - Cloudflare, Inc. - 9
-    server: 222.107.52.3
+    server: 146.56.155.102
     type: vless
-    port: 50000
+    port: 20003
     udp: true
     uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: ngedo.ambercc.filegear-sg.me
+    servername: ngedc.ambercc.filegear-sg.me
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ngedo.ambercc.filegear-sg.me
-    delay: 593
-  - name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
-    server: 43.203.203.14
+        Host: ngedc.ambercc.filegear-sg.me
+    delay: 768
+  - name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 2
+    server: 13.124.222.109
     type: ss
     country: 🇰🇷KR
     port: 443
     password: amazonskr05
     cipher: aes-256-cfb
-    delay: 1930
-  - name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 2
+    delay: 944
+  - name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 3
+    server: 52.79.249.199
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    delay: 1908
+  - name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 4
+    server: 52.78.178.243
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    delay: 1124
+  - name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
     server: 43.201.102.200
     port: 443
     type: ss
     cipher: aes-256-cfb
     password: amazonskr05
-    delay: 1893
+    delay: 1555
+  - name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 5
+    server: 3.34.123.239
+    type: ss
+    country: 🇰🇷KR
+    port: 443
+    password: amazonskr05
+    cipher: aes-256-cfb
+    delay: 2367
