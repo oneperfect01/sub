@@ -4,7 +4,7 @@ mode: Global
 log-level: info
 external-controller: ':9090'
 proxies:
-  - name: 中国 - 佛山市 - China Mobile - 3
+  - name: 中国 - 佛山市 - China Mobile - 5
     server: 183.236.51.36
     port: 59003
     type: vmess
@@ -13,8 +13,8 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    delay: 328
-  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 1
+    delay: 439
+  - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
     server: 39.107.155.11
     port: 30302
     type: vmess
@@ -24,7 +24,7 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-    delay: 197
+    delay: 128
   - name: 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
     server: 39.100.81.215
     port: 50002
@@ -34,8 +34,8 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    delay: 271
-  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2
+    delay: 330
+  - name: 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 7
     server: 112.132.215.34
     port: 50007
     type: vmess
@@ -44,33 +44,48 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    delay: 292
-  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 7
+    delay: 364
+  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
     server: 119.29.98.43
-    port: 20521
-    type: vmess
-    uuid: 682b8828-6cb4-476b-99ea-33ac91e30c77
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-    delay: 385
-  - name: 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 5
-    server: 120.26.137.112
     type: vmess
     country: 🇨🇳CN
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    port: 56532
+    uuid: b20b5fcd-23f5-4f70-ba49-898d78296abf
+    alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 322
-  - name: 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 4
+    ws-opts:
+      path: /arki?ed=2048
+    delay: 662
+  - name: 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 8
+    server: 119.29.98.43
+    type: vmess
+    country: 🇨🇳CN
+    port: 11399
+    uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648
+    alterId: 0
+    cipher: auto
+    network: ws
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    ws-opts:
+      path: /arki?ed=2048
+    delay: 401
+  - name: 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
+    server: 120.26.137.112
+    port: 50002
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    delay: 188
+  - name: 中国 - 青岛市 - Hangzhou Alibaba Advertising Co - 2
     server: 139.129.20.6
     port: 50002
     type: vmess
@@ -80,201 +95,97 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-    delay: 290
-  - name: 印度 - 新孟買 - G-Core Labs S.A. - 2
-    server: n002.xunxunmimisbs.sbs
-    port: 27100
-    type: trojan
-    password: 40d2915b-3085-4a6b-89e8-67c7125c24ef
-    sni: in01.xxxxyyyysbs.sbs
-    skip-cert-verify: false
-    udp: true
-    delay: 719
-  - name: 印度 - 新孟買 - G-Core Labs S.A. - 3
-    server: n002.xunxunmimisbs.sbs
-    port: 47100
-    type: trojan
-    password: 86539c18-bf4e-4ae6-a970-528c6eacea7c
-    sni: in01.xxxxyyyysbs.sbs
-    skip-cert-verify: false
-    udp: true
-    delay: 854
-  - name: 印度 - 新孟買 - G-Core Labs S.A. - 4
-    server: n001.xunxunmimisbs.sbs
-    port: 27100
-    type: trojan
-    password: c28626c9-b566-4d30-95cd-fffda0140503
-    sni: in01.xxxxyyyysbs.sbs
-    skip-cert-verify: false
-    udp: true
-    delay: 624
-  - name: 印度 - 新孟買 - G-Core Labs S.A. - 5
-    server: n002.xunxunmimisbs.sbs
-    port: 27100
-    type: trojan
-    password: c28626c9-b566-4d30-95cd-fffda0140503
-    sni: in01.xxxxyyyysbs.sbs
-    skip-cert-verify: false
-    udp: true
-    delay: 1289
-  - name: 印度 - 新孟買 - G-Core Labs S.A. - 6
-    server: n001.xunxunmimisbs.sbs
-    port: 47100
-    type: trojan
-    password: 5d0d1bf1-f5f1-4e92-b883-2c085d7cd86e
-    sni: in01.xxxxyyyysbs.sbs
-    skip-cert-verify: false
-    udp: true
-    delay: 748
-  - name: 土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 2
+    delay: 179
+  - name: 土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 1
     server: tr-1.stunnel.cc
-    type: ss
-    country: 🇨🇿CZ
     port: 8444
-    password: tunnel-fbrof
-    cipher: chacha20-ietf-poly1305
-    delay: 1371
-  - name: 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 1
-    server: 62.133.63.222
-    port: 48981
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: CDAGEYAB1gvcIrFZYhUbEM
-    delay: 2244
-  - name: 德国 - 法兰克福 - OVH SAS - 1
-    server: '2001:41d0:70e:c100::'
-    port: 443
+    password: tunnel-fbrof
+    delay: 722
+  - name: 德国 - 法兰克福 - Global Connectivity Solutions LLP - 2
+    server: 80.66.72.11
+    type: ss
+    port: 35291
+    password: A7tAaeQqcsxuDfiFyQmP5u
+    cipher: chacha20-ietf-poly1305
+    delay: 457
+  - name: 德国 - 纽伦堡 - Hetzner Online GmbH - 1
+    server: 116.203.89.88
     type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    country: 🇩🇪DE
+    port: 443
+    uuid: 6f41bfca-38b6-4a90-8309-75c3587b7056
     alterId: 0
     cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: serkat.org
     network: ws
+    servername: googleb.net
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
     ws-opts:
-      path: /linkvws
+      path: /linkws
       headers:
-        Host: serkat.org
-    udp: true
-    delay: 1104
-  - name: 德国 - 达姆施塔特 - G-Core Labs S.A. - 3
-    server: n001.xunxunmimisbs.sbs
-    port: 25100
-    type: trojan
-    password: c28626c9-b566-4d30-95cd-fffda0140503
-    sni: de01.xxxxyyyysbs.sbs
-    skip-cert-verify: false
-    udp: true
-    delay: 1049
+        HOST: googleb.net
+    delay: 737
   - name: 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
     server: 185.153.197.5
     port: 989
     type: ss
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-    udp: true
-    delay: 1396
+    delay: 646
   - name: 摩洛哥 - Fes - BrainStorm Network, Inc - 1
-    server: 188.214.157.30
-    port: 990
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-    delay: 1151
-  - name: 摩洛哥 - Fes - BrainStorm Network, Inc - 2
     server: 188.214.157.58
     port: 990
     type: ss
     cipher: chacha20-ietf-poly1305
     password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-    delay: 1724
-  - name: 新加坡 - 新加坡 - G-Core Labs S.A. - 1
-    server: n002.xunxunmimisbs.sbs
-    port: 31101
-    type: trojan
-    password: 86539c18-bf4e-4ae6-a970-528c6eacea7c
-    sni: sg02.xxxxyyyysbs.sbs
-    skip-cert-verify: false
-    udp: true
-    delay: 797
-  - name: 新加坡 - 新加坡 - G-Core Labs S.A. - 2
-    server: n001.xunxunmimisbs.sbs
-    port: 31100
-    type: trojan
-    password: 5d0d1bf1-f5f1-4e92-b883-2c085d7cd86e
-    sni: sg01.xxxxyyyysbs.sbs
-    skip-cert-verify: false
-    udp: true
-    delay: 2007
-  - name: 日本 - Shibuya City - M247 Europe SRL - 1
-    server: 194.68.27.76
-    port: 989
-    type: ss
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-    delay: 1384
-  - name: 日本 - 东京 - Akamai Technologies, Inc. - 2
-    server: 172.238.21.121
-    type: ss
-    country: 🇺🇸US
-    port: 64919
-    password: 0ghZkORvV4grvekDJ9Wcge
-    cipher: chacha20-ietf-poly1305
-    delay: 1883
-  - name: 日本 - 东京 - Akamai Technologies, Inc. - 3
-    server: 172.238.21.207
-    port: 38666
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 94rUxNcHIct9OGdF0DTAPX
-    delay: 2351
-  - name: 日本 - 东京 - G-Core Labs S.A. - 4
-    server: n001.xunxunmimisbs.sbs
-    port: 41300
-    type: trojan
-    password: c28626c9-b566-4d30-95cd-fffda0140503
-    sni: jp01.xxxxyyyysbs.sbs
+    delay: 924
+  - name: 新加坡 - 新加坡 - DigitalOcean, LLC - 1
+    server: v4.heduian.link
+    port: 30804
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
     skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        Host: ocbc.com
+    delay: 898
+  - name: 法国 - 巴黎 - Online S.A.S. - 1
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    type: vmess
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: >-
+        /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+    delay: 932
+  - name: 澳大利亚 - 悉尼 - Amazon.com, Inc. - 1
+    server: 54.252.154.208
+    port: 80
+    type: ss
+    cipher: aes-256-gcm
+    password: dada0801
     udp: true
-    delay: 300
-  - name: 法国 - 巴黎 - Amazon.com, Inc. - 1
-    server: 51.45.18.222
-    type: trojan
-    country: 🇺🇸US
-    port: 22222
-    password: telegram-id-privatevpns
-    sni: trojan.burgerip.co.uk
-    skip-cert-verify: true
-    udp: true
-    delay: 1252
-  - name: 法国 - 巴黎 - G-Core Labs S.A. - 3
-    server: n002.xunxunmimisbs.sbs
-    port: 48100
-    type: trojan
-    password: 5d0d1bf1-f5f1-4e92-b883-2c085d7cd86e
-    sni: fr01.xxxxyyyysbs.sbs
-    skip-cert-verify: false
-    udp: true
-    delay: 1606
-  - name: 瑞典 - 泰爾貝里 - Alexhost SRL - 1
-    server: 46.253.4.25
-    port: 35916
+    delay: 1731
+  - name: 美国 - 圣克拉拉 - prgmr.com, Inc. - 1
+    server: pupas-shirting-unsung.freesocks.work
+    port: 443
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: K0McnRF6v64k7o3teZ6F49
-    udp: true
-    delay: 1283
-  - name: 美国 - 洛杉矶 - IT7 Networks Inc - 4
-    server: us1.petal.news
-    type: trojan
-    country: 🇺🇸 US
-    port: 31443
-    password: OAj6Zba9QLK9HxrV
-    skip-cert-verify: true
-    udp: true
-    delay: 1203
-  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 5
+    password: p78naCf2EfOlRSLTX0wFVx
+    delay: 406
+  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 3
     server: nop-55q.pages.dev
     port: 2053
     type: trojan
@@ -283,94 +194,95 @@ proxies:
     skip-cert-verify: false
     network: ws
     ws-opts:
-      path: /trGPZDfetEwuO25SAs?ed=2560
+      path: /trGPZDfetEwuO25SAs
       headers:
         Host: NOp-55q.pAgEs.dEv
     udp: true
-    delay: 2466
-  - name: 英国 - Harlesden - G-Core Labs S.A. - 6
-    server: n002.xunxunmimisbs.sbs
-    port: 44100
-    type: trojan
-    password: 86539c18-bf4e-4ae6-a970-528c6eacea7c
-    sni: uk01.xxxxyyyysbs.sbs
-    skip-cert-verify: false
-    udp: true
-    delay: 1061
-  - name: 英国 - Slough - DigitalOcean, LLC - 2
-    server: v36.heduian.link
-    type: vmess
-    country: 🇨🇳CN
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: ws
-    servername: baidu.com
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    ws-opts:
-      path: /oooo
-      headers:
-        HOST: baidu.com
-    delay: 1846
-  - name: 英国 - 伦敦 - Datacamp Limited - 1
-    server: 206.206.125.53
-    port: 20199
+    delay: 928
+  - name: 越南 - Bo - VNPT Corp - 5
+    server: arxfw2b78fi2q9hzylhn.freesocks.work
+    port: 443
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: W4ULRoPY8DvUhnbfKnjSWD
-    udp: true
-    delay: 699
-  - name: 越南 - Cầu Giấy - Vietnam Posts and Telecommunications Group - 4
-    server: n002.xunxunmimisbs.sbs
-    port: 28200
-    type: trojan
-    password: c28626c9-b566-4d30-95cd-fffda0140503
-    sni: vn01.xxxxyyyysbs.sbs
-    skip-cert-verify: false
-    udp: true
-    delay: 2155
+    password: Nk9asglDzHzjktVzTkvhaA
+    delay: 1419
   - name: 越南 - Hải Dương - FASTLY - 1
-    server: 103.186.154.185
+    server: 103.186.155.76
     type: ss
     country: 🏁ZZ
     port: 38388
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     cipher: aes-256-cfb
-    delay: 1917
+    delay: 1313
+  - name: 越南 - Hải Dương - FASTLY - 10
+    server: 103.186.155.156
+    type: ss
+    country: 🏁ZZ
+    port: 38388
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    cipher: aes-256-cfb
+    delay: 1446
+  - name: 越南 - Hải Dương - FASTLY - 11
+    server: 103.186.154.42
+    type: ss
+    country: 🏁ZZ
+    port: 38388
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    cipher: aes-256-cfb
+    delay: 740
   - name: 越南 - Hải Dương - FASTLY - 2
-    server: 103.186.154.250
+    server: 103.186.155.129
     type: ss
     country: 🏁ZZ
     port: 38388
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     cipher: aes-256-cfb
-    delay: 1956
+    delay: 755
   - name: 越南 - Hải Dương - FASTLY - 3
-    server: 103.186.154.32
+    server: 103.186.154.238
     type: ss
-    country: 🏁 ZZ
+    country: 🏁ZZ
     port: 38388
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     cipher: aes-256-cfb
-    delay: 713
-  - name: 韩国 - 仁川广域市 - G-Core Labs S.A. - 1
-    server: n002.xunxunmimisbs.sbs
-    port: 22100
-    type: trojan
-    password: c28626c9-b566-4d30-95cd-fffda0140503
-    sni: kr01.xxxxyyyysbs.sbs
-    skip-cert-verify: false
+    delay: 676
+  - name: 越南 - Hải Dương - FASTLY - 4
+    server: 103.186.155.211
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     udp: true
-    delay: 1059
-  - name: 韩国 - 仁川广域市 - G-Core Labs S.A. - 2
-    server: n002.xunxunmimisbs.sbs
-    port: 22100
-    type: trojan
-    password: 94554127-32c4-4be1-b8b9-1330bafc2cdd
-    sni: kr01.xxxxyyyysbs.sbs
-    skip-cert-verify: false
+    delay: 1952
+  - name: 越南 - Hải Dương - FASTLY - 6
+    server: 103.186.154.190
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     udp: true
-    delay: 2187
+    delay: 720
+  - name: 越南 - Hải Dương - FASTLY - 7
+    server: 103.186.154.69
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 697
+  - name: 越南 - Hải Dương - FASTLY - 8
+    server: 103.186.154.212
+    type: ss
+    country: 🏁ZZ
+    port: 38388
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    cipher: aes-256-cfb
+    delay: 681
+  - name: 越南 - Hải Dương - FASTLY - 9
+    server: 103.186.154.152
+    type: ss
+    country: 🏁ZZ
+    port: 38388
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    cipher: aes-256-cfb
+    delay: 1795
