@@ -4,204 +4,162 @@ mode: Global
 log-level: info
 external-controller: ':9090'
 proxies:
-  - name: 德国 - 法兰克福 - Global Connectivity Solutions LLP - 2
-    server: 93.94.51.210
-    port: 443
-    type: vless
-    uuid: 405ba2d6-7fcb-4cdd-9c77-4ecc616d77c8
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    network: tcp
+  - name: 巴西 - 圣保罗 - Kaopu Cloud HK Limited - 1
+    server: 38.54.57.90
+    port: 989
+    type: ss
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
     udp: true
-    servername: deu549.worldbypass.org
-    delay: 2105
-  - name: 德国 - Falkenstein - Hetzner Online GmbH - 3
-    server: 46.224.13.54
-    port: 41457
-    type: vless
-    uuid: b370ee6c-986b-4a59-b4ef-7974c6c20f6f
-    tls: false
-    network: tcp
-    udp: true
-    client-fingerprint: chrome
-    delay: 517
-  - name: 德国 - Frankfurt Am Main - HZ Hosting Ltd - 1
-    server: free-de-2.undef.network
-    port: 443
+    delay: 1048
+  - name: 德国 - Frankfurt am Main - Amazon Technologies Inc. - 1
+    server: 18.196.6.7
     type: trojan
-    password: pYIoKUPGpWeTYXEx3HjR7s97B
-    sni: free-de-2.undef.network
+    country: 🇩🇪DE
+    port: 22222
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
     skip-cert-verify: true
+    udp: true
+    delay: 649
+  - name: 德国 - Frankfurt am Main - Amazon Technologies Inc. - 2
+    server: 18.196.6.7
+    type: trojan
+    country: 🇩🇪DE
+    port: 22223
+    password: telegram-id-directvpn
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    udp: true
+    delay: 652
+  - name: 德国 - Frankfurt am Main - Amazon.com - 3
+    server: 63.181.24.193
+    type: trojan
+    country: 🇺🇸US
+    port: 22222
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: true
+    udp: true
+    delay: 653
+  - name: 荷兰 - Meppel - WorkTitans B.V. - 1
+    server: nl.voxy-gen.ru
+    type: ss
+    country: 🇺🇸US
+    port: 9999
+    password: RbHCGWru17NFGqHJSybWHQebkxERU8pq
+    cipher: chacha20-ietf-poly1305
+    delay: 885
+  - name: 美国 - 聖荷西 - Cloudflare, Inc. - 2
+    server: support.cloudflare.com
+    type: vless
+    country: 🏁ZZ
+    port: 2095
+    udp: true
+    uuid: ''
     network: ws
+    skip-cert-verify: true
+    fingerprint: chrome
+    servername: cnmfangbinxing.cnm-fangbinxingnmsl-666.workers.dev
     ws-opts:
-      path: '%2Ff2fc2a1f'
+      path: /
       headers:
-        Host: free-de-2.undef.network
-    udp: true
-    delay: 2155
-  - name: 韩国 - Hwaseong-si - Korea Telecom - 1
-    server: 121.169.46.116
-    port: 1090
-    type: socks5
-    username: Og%3D%3D
-    skip-cert-verify: true
-    udp: true
-    delay: 2399
-  - name: 美国 - 华盛顿特区 - HostPapa - 3
-    server: v4.hdacd.com
-    type: vmess
-    country: 🇨🇳CN
-    port: 30804
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-    servername: v4.hdacd.com
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 1875
-  - name: 美国 - 聖荷西 - Radishcloud Technology LLC - 2
-    server: 5.34.222.4
-    type: trojan
-    country: 🇮🇷IR
-    port: 43642
-    password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
-    sni: iepl.usq1.cat.bilibili.com
-    skip-cert-verify: true
-    udp: true
-    delay: 2297
-  - name: 美国 - 西雅圖 - Spartan Host Ltd - 4
-    server: 4f31f69b-tax5s0-tcdmjc-1gevg.se.oshuawei.com
-    port: 443
-    type: http
-    username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-    password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-    tls: true
-    sni: 4f31f69b-tax5s0-tcdmjc-1gevg.se.oshuawei.com
-    delay: 2058
+        Host: cnmfangbinxing.cnm-fangbinxingnmsl-666.workers.dev
+    delay: 1044
   - name: 美国 - Somers - Fourplex Telecom LLC - 1
     server: tinkered-pennies-puppies.freesocks.work
     port: 443
     type: ss
-    country: 🏁 ZZ
+    cipher: chacha20-ietf-poly1305
     password: hbGrpfvNrJsUmKmPbR3iY2
-    cipher: chacha20-ietf-poly1305
+    udp: true
+    delay: 1744
+  - name: 日本 - 东京 - NewMedia Express Pte Ltd - 1
+    server: sg.ok12345.ggff.net
+    type: vmess
+    country: 🏁ZZ
+    port: 443
+    uuid: d1dc3430-d0db-4a14-b727-cb3e1d5057e0
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: jp001.japansb3.ggff.net
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        HOST: jp001.japansb3.ggff.net
+    delay: 1635
+  - name: 日本 - 东京 - NewMedia Express Pte Ltd - 10
+    server: sg.ok12345.ggff.net
+    type: vmess
+    country: 🇺🇸US
+    port: 443
+    uuid: 83d2c530-d9e1-4648-b32b-4850272e093e
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: jp001.japansb3.ggff.net
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        HOST: jp001.japansb3.ggff.net
+    delay: 833
+  - name: 日本 - 东京 - NewMedia Express Pte Ltd - 11
+    server: sg.ok12345.ggff.net
+    type: vmess
+    country: 🏁ZZ
+    port: 443
+    uuid: 35249ead-311e-4cb9-ab36-17406ccf6b84
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: jp001.japansb3.ggff.net
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        HOST: jp001.japansb3.ggff.net
+    delay: 849
+  - name: 日本 - 东京 - NewMedia Express Pte Ltd - 12
+    server: sg.ok12345.ggff.net
+    type: vmess
+    country: 🏁ZZ
+    port: 443
+    uuid: 3e7f0531-be99-4ca8-bcf2-cc105de333e0
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: jp001.japansb3.ggff.net
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        HOST: jp001.japansb3.ggff.net
     delay: 903
-  - name: 葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1
-    server: 185.231.233.112
-    type: ss
-    country: 🏁 ZZ
-    port: 989
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-    delay: 2868
-  - name: 日本 - 东京 - Alibaba (US) Technology Co., Ltd. - 6
-    server: n1749032906.kzxds.cn
-    type: vmess
-    country: 🇯🇵JP
-    port: 443
-    uuid: c3337e26-c0e0-4625-ad62-bfa8d19991a4
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: n1749032906.kzxds.cn
-    http-opts: {}
-    h2-opts: {}
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        HOST: n1749032906.kzxds.cn
-    delay: 1693
-  - name: 日本 - 东京 - Cyberverse LLC - 1
-    server: sg.ok12345.ggff.net
-    type: vmess
-    country: 🇺🇸US
-    port: 443
-    uuid: e2273e4a-ae8f-4937-baa0-a68860e22e61
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: jpdfabuio.japansb3.ggff.net
-    http-opts: {}
-    h2-opts: {}
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        HOST: jpdfabuio.japansb3.ggff.net
-    delay: 1229
-  - name: 日本 - 东京 - Cyberverse LLC - 2
-    server: sg.ok12345.ggff.net
-    type: vmess
-    country: 🇺🇸US
-    port: 443
-    uuid: 458763d4-9bcd-4a4c-9f73-f074f4f4ad0c
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: jpdfabuio.japansb3.ggff.net
-    http-opts: {}
-    h2-opts: {}
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        HOST: jpdfabuio.japansb3.ggff.net
-    delay: 1248
-  - name: 日本 - 东京 - Cyberverse LLC - 3
-    server: sg.ok12345.ggff.net
-    type: vmess
-    country: 🇺🇸US
-    port: 443
-    uuid: ec53de8d-d42d-482a-b9f0-5bed719af7ee
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: jpdfabuio.japansb3.ggff.net
-    http-opts: {}
-    h2-opts: {}
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        HOST: jpdfabuio.japansb3.ggff.net
-    delay: 1231
-  - name: 日本 - 东京 - Cyberverse LLC - 4
-    server: sg.ok12345.ggff.net
-    type: vmess
-    country: 🇺🇸US
-    port: 443
-    uuid: 42409482-4fcf-4e01-959b-4e06d4e0230f
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: jpdfabuio.japansb3.ggff.net
-    http-opts: {}
-    h2-opts: {}
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        HOST: jpdfabuio.japansb3.ggff.net
-    delay: 1250
-  - name: 日本 - 东京 - Cyberverse LLC - 5
+  - name: 日本 - 东京 - NewMedia Express Pte Ltd - 13
     server: sg.ok12345.ggff.net
     type: vmess
     country: 🏁ZZ
     port: 443
-    uuid: 6f2db5b5-0736-421d-9a42-bfbcc8b2faf2
+    uuid: 5a2725ef-0011-4952-b5f6-1b0eea35fa19
     alterId: 0
     cipher: auto
     network: ws
-    servername: jpdfabuio.japansb3.ggff.net
+    servername: jp001.japansb3.ggff.net
     http-opts: {}
     h2-opts: {}
     tls: true
@@ -209,101 +167,18 @@ proxies:
     ws-opts:
       path: /
       headers:
-        HOST: jpdfabuio.japansb3.ggff.net
-    delay: 1461
-  - name: >-
-      土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited
-      Sirketi - 1
-    server: turk1.net.net
-    type: vmess
-    country: 🇺🇸US
-    port: 80
-    uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: tr1-smart.adelping.com.
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
-      headers:
-        HOST: tr1-smart.adelping.com.
-    delay: 1376
-  - name: >-
-      土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited
-      Sirketi - 2
-    server: 104.26.14.137
-    type: vmess
-    country: 🇺🇸US
-    port: 80
-    uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: tr1-smart.adelping.com.
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        HOST: tr1-smart.adelping.com.
-    delay: 1884
-  - name: 西班牙 - 马德里 - Melbikomas UAB - 1
-    server: 5.188.181.201
-    port: 9027
-    type: ss
-    country: 🇪🇸 ES
-    password: EXN3S3eQpjE7EJu8
-    cipher: aes-256-cfb
-    delay: 673
-  - name: 新加坡 - 新加坡 - Cloudflare, Inc. - 8
-    server: 198.41.211.211
-    port: 443
-    type: vless
-    uuid: a8ea783c-dc54-4b17-96e4-144d1af2cb75
-    tls: true
-    alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sa.anjue39.qzz.io
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    udp: true
-    servername: sa.anjue39.qzz.io
-    delay: 473
-  - name: 新加坡 - 新加坡 - Global Communication Network Limited - 1
-    server: 82.21.80.224
-    port: 17310
-    type: vmess
-    country: 🇬🇧 GB
-    uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: none
-    http-opts: {}
-    ws-path: /
-    skip-cert-verify: true
-    delay: 1533
-  - name: 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 2
+        HOST: jp001.japansb3.ggff.net
+    delay: 975
+  - name: 日本 - 东京 - NewMedia Express Pte Ltd - 2
     server: sg.ok12345.ggff.net
     type: vmess
     country: 🇺🇸US
     port: 443
-    uuid: 768d4f16-ae54-4655-aca7-92809b043ed7
+    uuid: 1b2584fd-6ac5-46a2-806f-d49fbebfda3e
     alterId: 0
     cipher: auto
     network: ws
-    servername: sgdaobk.1buigujj.ggff.net
+    servername: jp001.japansb3.ggff.net
     http-opts: {}
     h2-opts: {}
     tls: true
@@ -311,296 +186,18 @@ proxies:
     ws-opts:
       path: /
       headers:
-        HOST: sgdaobk.1buigujj.ggff.net
-    delay: 1048
-  - name: 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 3
-    server: sg.ok12345.ggff.net
-    type: vmess
-    country: 🇺🇸US
-    port: 443
-    uuid: 681d0e53-ca10-4840-87b1-fadd43e71a77
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: sgdaobk.1buigujj.ggff.net
-    http-opts: {}
-    h2-opts: {}
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        HOST: sgdaobk.1buigujj.ggff.net
-    delay: 1133
-  - name: 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 4
-    server: sg.ok12345.ggff.net
-    type: vmess
-    country: 🏁ZZ
-    port: 443
-    uuid: f105ea9d-7f28-4c39-a827-d86058ca3204
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: sgdaobk.1buigujj.ggff.net
-    http-opts: {}
-    h2-opts: {}
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        HOST: sgdaobk.1buigujj.ggff.net
-    delay: 1135
-  - name: 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 5
-    server: sg.ok12345.ggff.net
-    type: vmess
-    country: 🏁ZZ
-    port: 443
-    uuid: af546574-0d6c-49f7-8b9b-c7463315ad6c
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: sgdaobk.1buigujj.ggff.net
-    http-opts: {}
-    h2-opts: {}
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        HOST: sgdaobk.1buigujj.ggff.net
-    delay: 1142
-  - name: 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 6
-    server: sg.ok12345.ggff.net
-    port: 443
-    type: vmess
-    uuid: 3f60257b-9151-4018-838d-26249fda23d9
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sgdaobk.1buigujj.ggff.net
-    udp: true
-    client-fingerprint: chrome
-    servername: sgdaobk.1buigujj.ggff.net
-    delay: 2285
-  - name: 新加坡 - 新加坡 - Leaseweb Singapore Pte. Ltd. - 7
-    server: sg.ok12345.ggff.net
-    port: 443
-    type: vmess
-    uuid: 0332fe0c-c33e-4d00-b30f-a18b4ff303f3
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sgdaobk.1buigujj.ggff.net
-    udp: true
-    client-fingerprint: chrome
-    servername: sgdaobk.1buigujj.ggff.net
-    delay: 2144
-  - name: 印度 - 孟买 - Oracle Corporation - 1
-    server: 183.232.137.2
-    type: ss
-    country: 🇨🇳CN
-    port: 34411
-    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-    cipher: chacha20-ietf-poly1305
-    delay: 2001
-  - name: 印度 - 孟买 - Oracle Corporation - 2
-    server: ldu.izenny.com
-    type: ss
-    country: 🇨🇳CN
-    port: 34411
-    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-    cipher: chacha20-ietf-poly1305
-    delay: 1874
-  - name: 英国 - City of London - Microsoft Corporation - 1
-    server: admin.c2.havij.co
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: kaQH3hGdcP80XEDI
-    udp: true
-    delay: 1190
-  - name: 越南 - Hải Dương - FASTLY - 1
-    server: 103.186.155.33
-    port: 38388
-    type: ss
-    country: 🏁 ZZ
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    cipher: aes-256-cfb
-    delay: 1003
-  - name: 越南 - Hải Dương - FASTLY - 2
-    server: 103.186.154.174
-    port: 38388
-    type: ss
-    country: 🏁 ZZ
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    cipher: aes-256-cfb
-    delay: 1015
-  - name: 越南 - Hải Dương - FASTLY - 3
-    server: 103.186.155.115
-    port: 38388
-    type: ss
-    country: 🏁 ZZ
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    cipher: aes-256-cfb
-    delay: 1159
-  - name: 越南 - Hải Dương - FASTLY - 4
-    server: 103.186.155.140
-    port: 38388
-    type: ss
-    country: 🏁 ZZ
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    cipher: aes-256-cfb
-    delay: 1605
-  - name: 越南 - Hải Dương - FASTLY - 5
-    server: 103.186.154.252
-    port: 38388
-    type: ss
-    country: 🏁 ZZ
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    cipher: aes-256-cfb
+        HOST: jp001.japansb3.ggff.net
     delay: 953
-  - name: 越南 - Hải Dương - FASTLY - 6
-    server: 103.186.154.176
-    type: ss
-    country: 🏁 ZZ
-    port: 38388
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    cipher: aes-256-cfb
-    delay: 1137
-  - name: 越南 - Hải Dương - FASTLY - 7
-    server: 103.186.155.41
-    port: 38388
-    type: ss
-    country: 🏁 ZZ
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    cipher: aes-256-cfb
-    delay: 974
-  - name: 越南 - Hải Dương - FASTLY - 8
-    server: 103.186.154.60
-    port: 38388
-    type: ss
-    country: 🏁 ZZ
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    cipher: aes-256-cfb
-    delay: 830
-  - name: 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 7
-    server: hn.xn--wlqw1swrj04ju56d.com
-    type: vmess
-    country: 🇨🇳CN
-    port: 80
-    uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: tms.dingtalk.com
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        HOST: tms.dingtalk.com
-    delay: 1054
-  - name: 中国 - 台湾 - Akile LTD - 10
-    server: 183.232.137.2
-    port: 43076
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-    udp: true
-    delay: 811
-  - name: 中国 - 台湾 - Akile LTD - 11
-    server: ldu.izenny.com
-    type: ss
-    country: 🇨🇳CN
-    port: 43076
-    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-    cipher: chacha20-ietf-poly1305
-    delay: 1028
-  - name: 中国 - 台湾 - Akile LTD - 8
-    server: 183.232.137.2
-    port: 18148
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-    udp: true
-    delay: 918
-  - name: 中国 - 台湾 - Akile LTD - 9
-    server: ldu.izenny.com
-    port: 18148
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-    udp: true
-    delay: 1041
-  - name: 中国 - 台湾 - Data Center Network Limited - 1
-    server: 185.189.160.105
-    port: 41632
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-cfb
-    password: qwerREWQ@@
-    tfo: true
-    udp: true
-    delay: 671
-  - name: 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 4
-    server: n1761296897.lie5d.cyou
-    type: vmess
-    country: 🇭🇰HK
-    port: 443
-    uuid: 5ecc3086-93cf-42e3-956b-f2180e042537
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: n1761296897.lie5d.cyou
-    http-opts: {}
-    h2-opts: {}
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        HOST: n1761296897.lie5d.cyou
-    delay: 2175
-  - name: 中国 - 香港 - Alibaba Cloud LLC - 5
-    server: n1752833184.lie5d.cyou
-    type: vmess
-    country: 🇭🇰HK
-    port: 443
-    uuid: 6c7d09e3-9cfa-41c8-8194-e81eb21bfb88
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: n1752833184.lie5d.cyou
-    http-opts: {}
-    h2-opts: {}
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        HOST: n1752833184.lie5d.cyou
-    delay: 1932
-  - name: 中国 - 香港 - Alibaba Cloud LLC - 6
-    server: n1752248951.lie5d.cyou
+  - name: 日本 - 东京 - NewMedia Express Pte Ltd - 3
+    server: sg.ok12345.ggff.net
     type: vmess
     country: 🇺🇸US
     port: 443
-    uuid: bf2ce3c2-339f-4926-b92d-b7d83af1b3b6
+    uuid: ee7b0420-d4ef-42b0-92c6-dbdc1280c470
     alterId: 0
     cipher: auto
     network: ws
-    servername: n1752248951.lie5d.cyou
+    servername: jp001.japansb3.ggff.net
     http-opts: {}
     h2-opts: {}
     tls: true
@@ -608,71 +205,367 @@ proxies:
     ws-opts:
       path: /
       headers:
-        HOST: n1752248951.lie5d.cyou
-    delay: 2319
-  - name: 中国 - 香港 - Alibaba.com LLC - 14
-    server: 47.242.225.0
+        HOST: jp001.japansb3.ggff.net
+    delay: 866
+  - name: 日本 - 东京 - NewMedia Express Pte Ltd - 4
+    server: sg.ok12345.ggff.net
     type: vmess
-    country: 🇭🇰HK
-    port: 32975
-    uuid: ebaad525-e2cf-4c18-8ae9-41af29ac4b9c
+    country: 🏁ZZ
+    port: 443
+    uuid: 6ed4f5f2-f97b-4d98-9618-ee53894bb666
     alterId: 0
     cipher: auto
+    network: ws
+    servername: jp001.japansb3.ggff.net
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        HOST: jp001.japansb3.ggff.net
+    delay: 825
+  - name: 日本 - 东京 - NewMedia Express Pte Ltd - 5
+    server: sg.ok12345.ggff.net
+    type: vmess
+    country: 🇺🇸US
+    port: 443
+    uuid: 7473f95b-5a12-4972-b882-9fcd41ceff72
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: jp001.japansb3.ggff.net
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        HOST: jp001.japansb3.ggff.net
+    delay: 878
+  - name: 日本 - 东京 - NewMedia Express Pte Ltd - 6
+    server: sg.ok12345.ggff.net
+    type: vmess
+    country: 🇺🇸US
+    port: 443
+    uuid: 6ee0b840-6ed5-4f7c-a2d3-942f423d594c
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: jp001.japansb3.ggff.net
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        HOST: jp001.japansb3.ggff.net
+    delay: 851
+  - name: 日本 - 东京 - NewMedia Express Pte Ltd - 7
+    server: sg.ok12345.ggff.net
+    type: vmess
+    country: 🇺🇸US
+    port: 443
+    uuid: 613b8baf-f848-43b6-9055-63a37160f203
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: jp001.japansb3.ggff.net
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        HOST: jp001.japansb3.ggff.net
+    delay: 921
+  - name: 日本 - 东京 - NewMedia Express Pte Ltd - 8
+    server: sg.ok12345.ggff.net
+    type: vmess
+    country: 🇺🇸US
+    port: 443
+    uuid: c9b9fc25-49b6-4a3f-bd20-ed7a3bcab08e
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: jp001.japansb3.ggff.net
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        HOST: jp001.japansb3.ggff.net
+    delay: 825
+  - name: 日本 - 东京 - NewMedia Express Pte Ltd - 9
+    server: sg.ok12345.ggff.net
+    type: vmess
+    country: 🇺🇸US
+    port: 443
+    uuid: a15b5746-8ca1-4320-9aa2-ea1566189902
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: jp001.japansb3.ggff.net
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        HOST: jp001.japansb3.ggff.net
+    delay: 876
+  - name: 土耳其 - Yakuplu - Ultahost, Inc. - 1
+    server: 31.210.50.196
+    port: 12422
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: Oqt9kgyMGBiOAJPG4uZXlv
+    udp: true
+    delay: 663
+  - name: 印度 - Mumbai - Google LLC - 1
+    server: tttyder.wsone.icu
+    type: trojan
+    port: 443
+    password: M7v%w11Se*
+    sni: tttyder.wsone.icu
+    skip-cert-verify: true
+    delay: 1680
+  - name: 英国 - 伦敦 - Global Connectivity Solutions LLP - 1
+    server: 87.120.219.124
+    port: 2086
+    type: vmess
+    uuid: e6a866ca-1756-44ed-9866-a9949f2bad38
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
     network: http
     http-opts:
       method: GET
       path:
         - /
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 240
-  - name: 中国 - 香港 - Alibaba.com LLC - 15
-    server: n1761296877.lie5d.cyou
-    port: 443
+      headers:
+        Host:
+          - fast.com
+    udp: true
+    client-fingerprint: chrome
+    delay: 773
+  - name: 越南 - Hải Dương - FASTLY - 1
+    server: 103.186.155.122
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 832
+  - name: 越南 - Hải Dương - FASTLY - 10
+    server: 103.186.154.64
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 932
+  - name: 越南 - Hải Dương - FASTLY - 11
+    server: 103.186.155.121
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 861
+  - name: 越南 - Hải Dương - FASTLY - 12
+    server: 103.186.155.82
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 974
+  - name: 越南 - Hải Dương - FASTLY - 13
+    server: 103.186.154.193
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 905
+  - name: 越南 - Hải Dương - FASTLY - 14
+    server: 103.186.155.16
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 875
+  - name: 越南 - Hải Dương - FASTLY - 15
+    server: 103.186.155.23
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 875
+  - name: 越南 - Hải Dương - FASTLY - 16
+    server: 103.186.154.25
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 864
+  - name: 越南 - Hải Dương - FASTLY - 17
+    server: 103.186.154.40
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 849
+  - name: 越南 - Hải Dương - FASTLY - 18
+    server: 103.186.154.233
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 854
+  - name: 越南 - Hải Dương - FASTLY - 19
+    server: 103.186.154.198
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 859
+  - name: 越南 - Hải Dương - FASTLY - 2
+    server: 103.186.154.157
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 879
+  - name: 越南 - Hải Dương - FASTLY - 20
+    server: 103.186.154.200
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 883
+  - name: 越南 - Hải Dương - FASTLY - 3
+    server: 103.186.154.240
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 829
+  - name: 越南 - Hải Dương - FASTLY - 4
+    server: 103.186.154.178
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 846
+  - name: 越南 - Hải Dương - FASTLY - 5
+    server: 103.186.154.251
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 834
+  - name: 越南 - Hải Dương - FASTLY - 6
+    server: 103.186.154.17
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 877
+  - name: 越南 - Hải Dương - FASTLY - 7
+    server: 103.186.154.196
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 837
+  - name: 越南 - Hải Dương - FASTLY - 8
+    server: 103.186.155.230
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 862
+  - name: 越南 - Hải Dương - FASTLY - 9
+    server: 103.186.155.54
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+    delay: 875
+  - name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
+    server: 9629ed93-t9ops0-ta7ccz-1j0a4.hkt.gotochinatown.net
     type: vmess
-    uuid: 1ebfdffa-1a37-4336-8494-f85b36cdf087
-    alterId: 0
+    port: 80
+    udp: true
+    uuid: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+    alterId: 2
     cipher: auto
-    tls: true
-    skip-cert-verify: true
     network: ws
+    http-opts: {}
+    h2-opts: {}
     ws-opts:
       path: /
       headers:
-        Host: n1761296877.lie5d.cyou
-    udp: true
-    client-fingerprint: chrome
-    servername: n1761296877.lie5d.cyou
-    delay: 1189
-  - name: 中国 - 香港 - Dalian Yichuan Industrial CO - 2
-    server: 103.149.182.79
-    type: ss
-    country: 🇭🇰 HK
-    port: 8388
-    password: asd123456
-    cipher: chacha20-ietf
-    delay: 715
-  - name: 中国 - 香港 - Dalian Yichuan Industrial CO - 3
-    server: 103.149.183.113
-    type: ss
+        Host: broadcastlv.chat.bilibili.com
+    delay: 922
+  - name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 2
+    server: b8355a46-t6g1s0-t7vzvm-1j0a4.hkt.gotochinatown.net
+    type: vmess
     country: 🇭🇰HK
-    port: 8388
-    password: asd123456
-    cipher: chacha20-ietf
-    delay: 719
-  - name: 中国 - 香港 - MoeChuang Network Limited - 12
-    server: ldu.izenny.com
-    type: ss
-    country: 🇨🇳CN
-    port: 34061
-    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-    cipher: chacha20-ietf-poly1305
-    delay: 1064
-  - name: 中国 - 香港 - MoeChuang Network Limited - 13
-    server: 183.232.137.2
-    type: ss
-    country: 🇨🇳CN
-    port: 34061
-    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-    cipher: chacha20-ietf-poly1305
-    delay: 836
+    port: 80
+    uuid: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+    alterId: 2
+    cipher: auto
+    network: ws
+    servername: broadcastlv.chat.bilibili.com
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        HOST: broadcastlv.chat.bilibili.com
+    delay: 501
+  - name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 3
+    server: 303e6664-t6r5s0-t7vzvm-1j0a4.hkt.gotochinatown.net
+    type: vmess
+    country: 🇭🇰HK
+    port: 80
+    uuid: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+    alterId: 2
+    cipher: auto
+    network: ws
+    servername: broadcastlv.chat.bilibili.com
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        HOST: broadcastlv.chat.bilibili.com
+    delay: 433
