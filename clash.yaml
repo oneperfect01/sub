@@ -4,32 +4,57 @@ mode: Global
 log-level: info
 external-controller: ':9090'
 proxies:
-  - name: 马来西亚 - Cyberjaya - 1
-    server: 118.107.222.231
-    port: 65443
+  - name: 法国 - 巴黎 - 1
+    server: 13.38.76.125
     type: ss
-    country: 🇲🇾 MY
-    password: 7eadc6dbe2ae
+    country: 🇫🇷FR
+    port: 443
+    password: amazonskr05
     cipher: aes-256-cfb
-    delay: 1007
-  - name: 美国 - Chicago - 1
-    server: v24.hdacd.com
+    delay: 480
+  - name: 法国 - 巴黎 - 2
+    server: 15.237.137.134
+    type: ss
+    country: 🇫🇷FR
+    port: 443
+    password: amazonskr05
+    cipher: aes-256-cfb
+    delay: 1159
+  - name: 美国 - 哥伦布 - 1
+    server: 3.144.113.215
+    type: ss
+    country: 🇺🇸US
+    port: 443
+    password: amazonskr05
+    cipher: aes-256-cfb
+    delay: 650
+  - name: 美国 - 哥伦布 - 2
+    server: 18.191.174.144
+    type: ss
+    country: 🇺🇸US
+    port: 443
+    password: amazonskr05
+    cipher: aes-256-cfb
+    delay: 624
+  - name: 美国 - 哥伦布 - 8
+    server: 3.149.6.228
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    udp: true
+    delay: 559
+  - name: 中国 - 合肥 - 1
+    server: 112.132.215.108
     type: vmess
-    country: 🏁ZZ
-    port: 30824
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    country: 🇨🇳CN
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     network: tcp
+    servername: 112.132.215.108
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-    delay: 2223
-  - name: 日本 - Tokyo - 1
-    server: 121.46.230.137
-    type: ss
-    country: 🇨🇳CN
-    port: 65443
-    password: 7eadc6dbe2ae
-    cipher: aes-256-cfb
-    delay: 1590
+    delay: 138
