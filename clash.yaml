@@ -5,82 +5,142 @@ log-level: info
 external-controller: ':9090'
 proxies:
   - name: 马来西亚 - 吉隆坡 - 1
-    password: 5931134d1cde66bf83a54acdfebe7ab2
-    port: 443
     server: 47.250.84.25
-    skip-cert-verify: true
-    sni: 47.250.84.25
+    port: 443
     type: trojan
+    country: 🇺🇸 US
+    password: 5931134d1cde66bf83a54acdfebe7ab2
+    skip-cert-verify: true
     udp: true
-    delay: 1402
-  - cipher: rc4-md5
-    name: 美国 - 紐約 - 3
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 98.98.79.198
+    delay: 1449
+  - cipher: aes-256-gcm
+    name: 美国 - 鳳凰城 - 2
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 95.215.201.18
     type: ss
     udp: true
-    delay: 1028
+    delay: 457
   - cipher: aes-256-gcm
-    name: 日本 - 东京 - 1
+    name: 美国 - 华盛顿特区 - 3
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 185.230.230.18
+    type: ss
+    udp: true
+    delay: 556
+  - cipher: aes-256-gcm
+    name: 美国 - 迈阿密 - 4
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 193.151.160.9
+    type: ss
+    udp: true
+    delay: 566
+  - cipher: aes-256-gcm
+    name: 美国 - 紐華克 - 5
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 193.151.163.18
+    type: ss
+    udp: true
+    delay: 532
+  - name: 美国 - 水牛城 - 1
+    server: v24.hdacd.com
+    type: vmess
+    country: 🏁ZZ
+    port: 30824
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    delay: 1138
+  - cipher: aes-256-gcm
+    name: 美国 - 亚特兰大 - 6
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 185.215.132.9
+    type: ss
+    udp: true
+    delay: 512
+  - cipher: aes-256-gcm
+    name: 美国 - 亚特兰大 - 7
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 185.215.132.18
+    type: ss
+    udp: true
+    delay: 511
+  - cipher: aes-256-gcm
+    name: 美国 - Ashburn - 8
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 45.86.51.18
+    type: ss
+    udp: true
+    delay: 548
+  - cipher: aes-256-gcm
+    name: 日本 - 东京 - 2
     password: BeaUf9c0AEWH40Pu
     port: 8388
     server: 154.36.158.197
     type: ss
     udp: true
-    delay: 1342
-  - cipher: rc4-md5
-    name: 新加坡 - 新加坡 - 1
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 128.1.186.73
+    delay: 1613
+  - name: 日本 - Minamishinagawa - 1
+    password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+    port: 8886
+    server: 45.32.52.173
+    skip-cert-verify: true
+    sni: 45.32.52.173
+    type: trojan
+    udp: true
+    delay: 1643
+  - cipher: aes-256-gcm
+    name: 意大利 - Milan - 1
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.45
     type: ss
     udp: true
-    delay: 1413
-  - cipher: rc4-md5
-    name: 新加坡 - 新加坡 - 2
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 128.1.186.132
+    delay: 630
+  - cipher: aes-256-gcm
+    name: 意大利 - Milan - 2
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.27
     type: ss
     udp: true
-    delay: 1172
-  - cipher: rc4-md5
-    name: 英国 - Stretford - 2
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 146.70.46.214
-    type: ss
-    udp: true
-    delay: 1032
-  - alterId: 0
-    cipher: auto
-    name: 中国 - 北京 - 2
-    network: ws
-    port: 10086
+    delay: 2978
+  - name: 中国 - 北京 - 2
     server: 120.48.133.162
     type: vmess
-    udp: true
+    country: 🇨🇳CN
+    port: 10086
     uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-    delay: 206
-  - name: 中国 - 合肥 - 3
-    server: 112.132.215.108
-    port: 50002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
     cipher: auto
-    tls: false
-    delay: 558
-  - name: 中国 - 台湾 - 1
-    server: 60.249.14.95
-    type: ss
-    country: 🇹🇼TW
-    port: 2377
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    cipher: chacha20-ietf-poly1305
-    plugin: obfs
-    plugin-opts:
-      host: (Telegram🇨🇳 @WangCai2)5337fad:11915
-      mode: tls
-    delay: 610
+    network: ws
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+    delay: 1416
+  - name: 中国 - 合肥 - 1
+    server: 112.132.215.108
+    type: vmess
+    country: 🇨🇳CN
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: tcp
+    servername: 112.132.215.108
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    delay: 1119
